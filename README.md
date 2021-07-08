@@ -1,4 +1,5 @@
 # circ-website
+CIRC Center Website
 
 ## Project setup
 ```
