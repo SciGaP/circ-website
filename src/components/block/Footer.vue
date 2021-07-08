@@ -44,7 +44,16 @@
       <div class="up-arrow">
         <span class="dot">
           <div class="square">
-            &#8593;
+            <div class="angle-vector">
+              <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg"> 
+                <path d="M13 8L7.40964 1.1978C7.35845 1.13563 7.2955 1.08584 7.22497 1.05174C7.15443 1.01764 7.07793 1 7.00055 1C6.92316 1 6.84666 1.01764 6.77612 1.05174C6.70559 1.08584 6.64264 1.13563 6.59145 1.1978L0.999999 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="stright-vector">
+              <svg width="2" height="18" viewBox="0 0 2 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L0.999998 17" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
           </div>
         </span>
       </div>
@@ -176,17 +185,18 @@ export default {
 .up-arrow .dot .square {
   width: 24px;
   height: 24px;
-  padding: 12px 14px 14px 17px;
+  padding: 10px 14px 14px 14px;
   font-size: 30px;
 }
 
-.up-arrow .dot .square .vl {
-  position: relative;
-  padding-left: 23px;
-  top: 70%;
-  bottom: 0px;
-  border: 0.5px solid #FFFFFF;
-  transform: rotate(90deg);
+.up-arrow .dot .square .angle-vector {
+  margin-top: -8px;
+  margin-left: 5px;
+}
+
+.up-arrow .dot .square .stright-vector {
+  margin-top: -17px;
+  margin-left: 11px;
 }
 
 ul {

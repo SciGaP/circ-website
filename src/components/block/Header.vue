@@ -16,8 +16,12 @@
       <!-- CIRC logo ends  -->
       <div class="right-header">
         <div class="solutions">
-          <span>Solutions
-            <svg></svg>
+          <span style="display: flex; flex-direction: row;">Solutions
+            <div class="down-vector">
+              <svg width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.833984 0.333252L5.00065 4.49992L9.16732 0.333252H0.833984Z" fill="#333333"/>
+              </svg>
+            </div>
           </span>
         </div>
 
@@ -118,11 +122,19 @@ export default {
 
 .circ-header .right-header .solutions {
   position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
   width: 59px;
   height: 22px;
   padding-left: 3.4725vw;
   padding-right: 0px;
   top: 21px;
+}
+
+.circ-header .right-header .solutions .down-vector {
+  padding-left: 5px;
+  z-index: 1;
 }
 
 span {
