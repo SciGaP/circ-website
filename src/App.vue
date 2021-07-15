@@ -1,6 +1,9 @@
 <template>
   <div id="app">
     <Header/>
+    <div class="router" id="nav">
+      <router-view/>
+    </div>
     <Footer/>
   </div>
 </template>
@@ -17,8 +20,8 @@ export default {
 
 <style>
 #app {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+  /* -webkit-font-smoothing: antialiased; */
+  /* -moz-osx-font-smoothing: grayscale; */
+  /* color: #2c3e50; */
 }
 </style>

@@ -96,7 +96,7 @@ export default {
 <style scoped>
 
 .circ-footer {
-  position: absolute;
+  position: relative;
   width: 100vw;
   height: 417px;
   left: 0px;
