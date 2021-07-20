@@ -24,4 +24,41 @@ export default {
   /* -moz-osx-font-smoothing: grayscale; */
   /* color: #2c3e50; */
 }
+
+.pos-r {
+  position: relative;
+}
+
+.block {
+  position: absolute;
+}
+
+.f-s {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.link-text {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+
+  color: #333333;
+}
+
+.nav-button {
+  appearance: none;
+  border: none;
+  box-shadow: none;
+  outline-style: none;
+  cursor: pointer;
+}
+
+.bgcl-in {
+  background-color: inherit;
+}
+
 </style>
