@@ -22,7 +22,7 @@
         <nav class='main-nav'>
           <ul class='main-nav-ul pos-r' role="menubar">
             <li class='main-nav-li nav-li pos-r'>
-              <button class="bgcl-in nav-primary nav-primary--solutions hover-text link-text nav-button">
+              <button class="bgcl-in nav-primary nav-primary--solutions hover-text link-text nav-button" v-on:click="this.SolutionHandleClick">
                 <div class="p-r f-s">
                   <span class="pos-r">Solutions </span>
                   <div class="down-vector p-r">
@@ -55,10 +55,10 @@
 
     </div>
     <!-- Mega_menu -->
-    <div class="mega-menu-section block">
+    <div class="mega-menu-section block" :class="this.menu_active?'active':''">
       <nav class='f-s'>
         <li class='flyout-panel pos-r f-s link-text'>
-          <div class="flyout-panel-section">
+          <div class="flyout-panel-section flyout-panel-section-pos--1 no-after pos-r">
             <span class="flyout-head-text">Core Platform</span>
             <ul class='flyout-ul'>
               <li class="flyout-li">
@@ -88,7 +88,7 @@
               </li>
             </ul>
           </div>
-          <div class='flyout-panel-section'>
+          <div class='flyout-panel-section pos-r'>
             <span class="flyout-head-text">Science Gateway Services</span>
             <ul class='flyout-ul'>
               <li class='flyout-li'>
@@ -111,7 +111,7 @@
               </li>
             </ul>
           </div>
-          <div class='flyout-panel-section'>
+          <div class='flyout-panel-section pos-r'>
             <span class='flyout-head-text'>Projects</span>
             <ul class="flyout-ul">
               <li class="flyout-li">
@@ -127,11 +127,11 @@
                 <a class="flyout-link" href=""><span>Biological Science &#8250;</span></a>
               </li>
               <li class="flyout-li">
-                <a class="flyout-link" href=""><span>See all Projects &#8250;</span></a>
+                <a class="flyout-link" href=""><span class="footer-link-text">See all Projects &#8250;</span></a>
               </li>
             </ul>
           </div>
-          <div class='flyout-panel-section'>
+          <div class='flyout-panel-section pos-r'>
             <span class='flyout-head-text'>Publications</span>
             <ul class="flyout-ul">
               <li class="flyout-li">
@@ -141,7 +141,7 @@
                 <a class="flyout-link" href=""><span>Publication 2 &#8250;</span></a>
               </li>
               <li class="flyout-li">
-                <a class="flyout-link" href=""><span>See all Publications &#8250;</span></a>
+                <a class="flyout-link" href=""><span class="footer-link-text">See all Publications &#8250;</span></a>
               </li>
             </ul>
           </div>
@@ -156,9 +156,17 @@
 <script>
 export default {
     name: 'Header',
+    data() {
+      return {
+        menu_active: false
+      }
+    },
     methods: {
       contactClick () {
         console.log("contact");
+      },
+      SolutionHandleClick (){
+        this.menu_active = this.menu_active^1;
       }
     },
 
@@ -177,13 +185,30 @@ export default {
 }
 
 .flyout-panel-section {
-  margin: 0px 20px 0px 0px;
+  margin: 0px 40px 0px 0px;
+  padding: 0px 0px 0px 40px;
 }
 
-.flyout-panel-section ::before {
+.flyout-panel-section::after {
   content: '';
   width: 1px;
+  left: 0px;
   position: absolute;
+  height: -webkit-fill-available;
+  bottom: 0px;
+  background-color: #EDEBEB;
+}
+
+.flyout-panel-section-pos--1 {
+  margin-left: -40px;
+}
+
+.footer-link-text {
+  color: #990000;
+}
+
+.no-after::after{
+  content: none
 }
 
 .flyout-head-text {
@@ -220,6 +245,12 @@ export default {
   margin-left: -8px;
 
   z-index: 10;
+
+  display: none;
+}
+
+.active {
+  display: flex; 
 }
 
 .ul {

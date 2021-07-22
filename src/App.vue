@@ -49,12 +49,20 @@ export default {
   color: #333333;
 }
 
+.crim-colo {
+  color:#990000
+}
+
 .nav-button {
   appearance: none;
   border: none;
   box-shadow: none;
   outline-style: none;
   cursor: pointer;
+}
+
+.cl-in {
+  color: inherit;
 }
 
 .bgcl-in {

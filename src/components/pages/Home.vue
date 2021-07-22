@@ -3,9 +3,9 @@
     <div class='landing_sc'>
       <div class='lsc_content'>
         <div class='heading'>
-          <p style="color:#333333">We'll handle <span style="color:#990000">Tech,</span>
+          <p style="color:#333333">We'll handle <span class='crim-colo'>Tech,</span>
           <br>
-          you handle <span style="color:#990000">Research</span></p> 
+          you handle <span class='crim-colo'>Research</span></p> 
         </div>
         <div class='desc'>
           <p>We take care of all your high performance computing <br>
