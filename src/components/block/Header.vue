@@ -44,7 +44,7 @@
               </button>
             </li>
             <li class="main-nav-li nav-li pos-r">
-              <button class="bgcl-in nav-primary nav-primary--contact hover-text link-text nav-button">
+              <button class="bgcl-in nav-primary nav-primary--contact hover-text link-text nav-button" onclick="window.location.href='/contact'">
                 <span>Contact</span>
               </button>
             </li>

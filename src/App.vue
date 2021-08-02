@@ -23,6 +23,11 @@ export default {
   /* -webkit-font-smoothing: antialiased; */
   /* -moz-osx-font-smoothing: grayscale; */
   /* color: #2c3e50; */
+  overflow:hidden; 
+}
+.wid-100 {
+  width: 100%;
+  box-sizing:border-box;
 }
 
 .pos-r {
@@ -51,6 +56,10 @@ export default {
 
 .crim-colo {
   color:#990000
+}
+
+.bg-crim-colo {
+  background-color: #990000;
 }
 
 .nav-button {
