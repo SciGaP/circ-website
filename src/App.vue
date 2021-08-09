@@ -54,6 +54,10 @@ export default {
   color: #333333;
 }
 
+.wid-100-vw {
+  width: 100vw;
+}
+
 .crim-colo {
   color:#990000
 }
