@@ -4,7 +4,7 @@
     </span>
     <span class="bg-phone bg-phone--2">
     </span>
-    <div class="contact-us f-s pos-r">
+    <div class="contact-us f-s pos-r link-text">
       <div class="contact-form-section pos-r">
         <form action="">
           <div class="pos-r f-s">
@@ -33,7 +33,7 @@
             <legend>Message</legend>
             <input class="bor-minus wid-100" type="text" placeholder="Type your message here">
           </fieldset>
-          <input class="bor-minus hig-3r wid-100 submit-button bg-crim-colo" type="submit" value="Submit">
+          <input class="bor-minus bor-rad hig-3r wid-100 submit-button bg-crim-colo" type="submit" value="Submit">
         </form>
       </div> 
       <div class="contact-details-section link-text pos-r">
@@ -109,7 +109,8 @@ export default {
   height:  5rem;
 }
 .bor-rad {
-  border-radius: 10px;
+  border-radius: 5px;
+  border: 0.5px solid #A0A0A0;
 }
 
 .bor-minus {
