@@ -68,7 +68,7 @@ export default {
   font-size: 16px;
   line-height: 140%;
 
-  color: #333333;
+  color: #000000;
 }
 
 .wid-100-vw {

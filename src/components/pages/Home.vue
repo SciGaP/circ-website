@@ -35,7 +35,7 @@
           <circle cx="268.5" cy="268.5" r="253.5" stroke="black" stroke-opacity="0.5" stroke-width="30"/>
         </svg>
       </span>
-      <div class="block f-s wid-100-vw hig-100-vh opcity-1">
+      <div class="block f-s wid-100-vw hig-100-vh">
         <div class="pos-r who-content">
           <div>
           <span class="home-head-text head-text">Who are we?</span>
@@ -56,8 +56,12 @@
         </div>
       </div>
     </div>
-    <div class="supported_by">
-      <!-- <span class="chem-bond z-idx--1"></span> -->
+    <div class="supported_by f-s pos-r">
+      <div class="pos-r"><span class="chem-bond z-idx--1 op-10"></span></div>
+      <div class="pos-r" style="margin-left:-4rem">
+        <span class="home-head-text head-text link-text">We're supported by</span>
+        <p style="line-height:160%; font-size:20px;">Most of the work we do is <b>backed</b> by the most <b>reputed scientific communities</b> in the country. <b>They trust us, so can you.</b></p>
+      </div>
     </div>
     <div class="collaborators_of">
 
@@ -184,6 +188,8 @@ export default {
 
 .head-text {
   font-size: 36px;
+  line-height: 140%;
+  font-weight: bold;
 }
 
 .z-idx--1 {
@@ -211,12 +217,12 @@ export default {
 
 .who_are_we {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
   flex-direction: row;
   position: relative;
   display: flex;
   background: #EDEBEB80;
-  /* opacity: 0.2; */
+  margin-bottom: 6rem;
 }
 
 .atom-structure::after {
@@ -237,7 +243,8 @@ export default {
   content: url('data:image/svg+xml; charset=UTF-8, <svg width="186" height="371" viewBox="0 0 186 371" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M125.5 221.887L68.1137 199.813C72.0164 181.355 68.3384 161.357 56.4482 144.983L116.42 85.0114C146.718 103.446 186 81.58 186 45.8294C186 20.5592 165.441 0 140.171 0C104.39 0 82.5725 39.3122 100.989 69.58L41.0168 129.552C15.2687 110.854 -20.0309 112.134 -44.4012 133.011L-74.9221 107.068C-59.6951 76.7614 -81.838 40.7373 -115.892 40.7373C-141.162 40.7373 -161.722 61.2965 -161.722 86.5667C-161.722 124.073 -119.047 145.418 -89.0638 123.688L-58.5479 149.628C-72.9827 173.301 -71.8406 203.443 -55.4475 226.017L-95.3635 265.932C-133.117 240.337 -185 267.322 -185 313.531C-185 345.22 -159.22 371 -127.531 371C-81.3601 371 -54.3098 319.156 -79.9328 281.364L-40.0168 241.449C-23.2891 253.597 -2.40253 257.398 17.0437 252.602L41.8519 311.242C18.3851 332.065 33.1487 371 64.5157 371C83.3683 371 98.7059 355.662 98.7059 336.81C98.7059 317.219 82.0545 301.224 61.9456 302.727L37.1322 244.074C46.6408 238.106 54.6012 229.891 60.2601 220.175L117.657 242.254C116.839 261.806 132.521 277.886 151.81 277.886C170.662 277.886 186 262.549 186 243.696C186 211.984 146 197.199 125.5 221.887Z" fill="black"/></svg>');
   display: block;
   width: fit-content;
-  background: #000000;
+  opacity: 0.1;
+  z-index: -3;
 }
 
 </style>
