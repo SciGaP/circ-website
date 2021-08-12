@@ -35,8 +35,9 @@
           <circle cx="268.5" cy="268.5" r="253.5" stroke="black" stroke-opacity="0.5" stroke-width="30"/>
         </svg>
       </span>
-      <div class="block f-s wid-100-vw opcity-1">
-        <div class="pos-r block who-content">
+      <div class="block f-s wid-100-vw hig-100-vh opcity-1">
+        <div class="pos-r who-content">
+          <div>
           <span class="home-head-text head-text">Who are we?</span>
           <p>
             We're a <b>diverse group</b> of induviduals ranging from <b>Computer scientists to Domain experts</b> who possess <b>Full-stack Scientific Cyberinfrastructure capabilities</b>. 
@@ -44,6 +45,14 @@
             domains which has attracted funding from <b>NASA</b> and the <b>National Science Foundation (NSF).</b>
           </p>
           <input class="bor-rad hig-3r know-button link-text bg-crim-colo" type="submit" value="Know more About us">
+          </div>
+        </div>
+        <div class="single-stat-card pos-r pad-right-8 hig-100-vh ">
+          <statCard title='Science Gateway' value="70+"/>
+        </div>
+        <div class="pos-r two-cards">
+          <div style="margin-top:-2rem"><statCard title='Science Gateway' value="70+"/></div>
+          <div style="margin-top:16rem"><statCard title='Science Gateway' value="70+"/></div>
         </div>
       </div>
     </div>
@@ -70,14 +79,18 @@
 </template>
 
 <script>
+import statCard from '../overlay/statCard';
 export default {
-    name: 'Home'
+    name: 'Home',
+    components: {statCard}
 }
 </script>
 
 <style scoped>
 
-
+.two-cards {
+  right: 8.334vh;
+}
 .home_page .landing_sc {
   flex-direction: row;
   position: relative;
@@ -87,6 +100,10 @@ export default {
   margin-top: 65px;
   height: 500px;
   padding-bottom: 180px;
+}
+
+.single-stat-card {
+  padding-top: 11rem;
 }
 
 .op-10 {
@@ -149,10 +166,11 @@ export default {
 
 .who-content {
   width: 40vw;
-  height: 100%;
+  height: 100vh;
   padding-top: 8rem;
   padding-left: 8rem;
   padding-right: 2rem;
+  margin-right: 9rem;
 }
 
 .home-head-text::after {

@@ -30,6 +30,19 @@ export default {
   box-sizing:border-box;
 }
 
+.hig-100-vh {
+  height: 100vh;
+}
+
+.mg-left-1 {
+  margin-left: 1rem;
+}
+
+.mg-right-1 {
+  margin-right: 1rem;
+}
+
+
 .pos-r {
   position: relative;
 }
@@ -42,6 +55,10 @@ export default {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+}
+
+.pad-right-8 {
+  padding-right: 8rem;
 }
 
 .link-text {
