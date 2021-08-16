@@ -269,8 +269,63 @@
         </div>
       </div>
     </div>
-    <div class="reviews">
-
+    <div class="reviews pos-r f-s">
+      <div class="pos-r">
+        <svg width="137" height="257" viewBox="0 0 137 257" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M84.2566 116.498C76.6954 114.321 69.1341 113.217 61.779 113.217C50.421 113.217 40.9437 115.812 33.595 118.991C40.6796 93.0543 57.6989 48.3014 91.6021 43.2616C94.7419 42.7946 97.3149 40.5243 98.1715 37.4682L105.581 10.9649C106.206 8.7236 105.836 6.32445 104.557 4.37938C103.279 2.4343 101.224 1.13651 98.9218 0.820916C96.4197 0.479561 93.8692 0.305664 91.3413 0.305664C50.6464 0.305664 10.3445 42.7817 -6.66186 103.601C-16.6448 139.282 -19.572 192.926 5.01813 226.691C18.7784 245.585 38.8537 255.674 64.6869 256.682C64.7932 256.685 64.8962 256.689 65.0025 256.689C96.8769 256.689 125.141 235.222 133.74 204.49C138.876 186.118 136.554 166.851 127.196 150.225C117.938 133.785 102.69 121.802 84.2566 116.498Z" fill="#EBEBEB"/>
+        </svg>
+        <svg width="151" height="257" viewBox="0 0 151 257" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M141.783 150.228C132.525 133.785 117.276 121.802 98.8436 116.498C91.2823 114.321 83.7211 113.217 76.3691 113.217C65.0112 113.217 55.5306 115.812 48.1819 118.991C55.2666 93.0542 72.2858 48.3014 106.192 43.2616C109.332 42.7946 111.902 40.5243 112.762 37.4682L120.172 10.9649C120.796 8.72359 120.426 6.32445 119.147 4.37938C117.872 2.4343 115.818 1.13651 113.512 0.820916C111.013 0.479561 108.463 0.305664 105.931 0.305664C65.2366 0.305664 24.9347 42.7817 7.92508 103.601C-2.0546 139.282 -4.98184 192.926 19.6115 226.698C33.3686 245.588 53.4471 255.681 79.2771 256.685C79.3833 256.689 79.4864 256.692 79.5959 256.692C111.467 256.692 139.735 235.225 148.333 204.494C153.463 186.122 151.138 166.851 141.783 150.228Z" fill="#EBEBEB"/>
+        </svg>
+      </div>
+      <div class="pos-r" style="margin-left:-10rem;">
+        <div style="padding-bottom:2rem;padding-top:2rem;">
+          <span class="home-head-text head-text link-text">Satisfied clients</span>
+        </div>
+        <div class="grid-container-column" style="z-index:3;column-gap: 1rem">
+          <div>
+            <reviewCard
+              imageLink="marlon.png"
+              firstName="Scott"
+              position="Manager"
+              company="Indiana University"
+              review="Lorem ipsum dolor sit amet, consecttur adipiscing elit, sed do euismod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+            />
+          </div>
+          <div>
+            <reviewCard
+              imageLink="marlon.png"
+              firstName="Scott"
+              position="Manager"
+              company="Indiana University"
+              review="Lorem ipsum dolor sit amet, consecttur adipiscing elit, sed do euismod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+            />
+          </div>
+          <div>
+            <reviewCard
+              imageLink="marlon.png"
+              firstName="Scott"
+              position="Manager"
+              company="Indiana University"
+              review="Lorem ipsum dolor sit amet, consecttur adipiscing elit, sed do euismod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+            />
+          </div>
+        </div>
+      </div>
+      <div class="pos-r" style="margin-top:-130px;right:0;position:absolute">
+        <svg width="185" height="238" viewBox="0 0 185 238" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M58.3679 16.945C2.88195 49.9387 -16.4176 122.252 15.2089 178.657C46.8355 235.061 117.3 253.998 172.786 221.004C228.272 188.011 247.571 115.697 215.945 59.2927C184.318 2.88811 113.854 -16.0487 58.3679 16.945ZM167.304 211.228C117.243 240.995 53.3607 223.827 24.8265 172.938C-3.7077 122.048 13.7892 56.4894 63.8498 26.7218C113.91 -3.04588 177.793 14.1221 206.327 65.0116C234.861 115.901 217.364 181.46 167.304 211.228Z" fill="#333333" fill-opacity="0.03"/>
+          <path transform="translate(43,48)" d="M66.6033 0.655699L19.7707 28.503L32.1343 50.5523L0.830424 69.1661L41.4337 141.578L150.874 76.5034L110.271 4.09134L78.9669 22.7051L66.6033 0.655699ZM34.7225 32.3083L62.5756 15.7465L68.6169 26.5206L40.7638 43.0824L34.7225 32.3083ZM45.5674 126.09L29.6913 97.7768L67.6504 75.2059L71.7247 82.4722L86.021 73.9714L81.9466 66.7051L119.906 44.1342L135.782 72.4476L45.5674 126.09ZM114.426 34.3623L24.212 88.005L15.7823 72.9713L106.243 19.1821L114.673 34.2157L114.426 34.3623Z" fill="#333333" fill-opacity="0.03"/>
+        </svg>
+      </div>
+    </div>
+    <div class="footer-pre f-s pos-r link-text" style="padding:5rem 8rem">
+      <div class="pos-r" style="width:45%;margin-right:10%">
+        <span style="font-size:44px;line-height:120%"><b>We're  part of the <span class="crim-colo">Pervasive </span> Technology <span class="crim-colo">Institue </span> at <span class="crim-colo">Indiana </span>University.</b></span>
+      </div>
+      <div class="pos-r" style="text-align:center;width:40%;margin-top:5%;margin-left:5%">
+        <button class="bor-rad hig-3r airvata-button link-text bg-crim-colo">Visit Website</button>
+      </div>
     </div>
   </div>
 </template>
@@ -278,9 +333,10 @@
 <script>
 import statCard from '../overlay/statCard';
 import teamCard from '../overlay/teamCard';
+import reviewCard from '../overlay/reviewCard';
 export default {
     name: 'Home',
-    components: {statCard, teamCard}
+    components: {statCard, teamCard, reviewCard}
 }
 </script>
 
@@ -288,6 +344,12 @@ export default {
 
 .two-cards {
   right: 8.334vh;
+}
+
+.reviews {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  background: #EDEBEB33;
 }
 
 .domain-image {
@@ -339,37 +401,6 @@ export default {
   margin-top: 65px;
   height: 500px;
   padding-bottom: 180px;
-}
-
-.item--1::before {
-  content: url('~@/assets/NSF.png');
-  vertical-align: bottom;
-}
-.item--2::before {
-  content: url('~@/assets/NASA.png');
-  vertical-align: bottom;
-}
-
-.item--3::before {
-  content: url('~@/assets/DOE.png');
-  vertical-align: bottom;
-}
-
-.item--3 {
-  margin-top: 2rem;
-}
-
-.item--4::before {
-  content: url('~@/assets/USDA.png');
-  vertical-align: bottom;
-}
-.item--5::before {
-  content: url('~@/assets/NIH.png');
-  vertical-align: bottom;
-}
-
-.item--5 {
-  margin-top: 1.5rem;
 }
 
 .item-coll--1::before {
