@@ -26,6 +26,11 @@ export default new Router({
             path: '/case-study',
             name: 'Case_Study',
             component: () => import("./components/pages/CaseStudy")
+        },
+        {
+            path: '/services',
+            name: 'Services',
+            component: () => import("./components/pages/Services")
         }
     ]
 })

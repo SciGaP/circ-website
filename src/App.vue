@@ -73,7 +73,7 @@ export default {
 }
 
 .global-padding {
-  padding: 4rem 8rem;
+  padding: 4rem 7.5rem;
 }
 
 .grid-container {
