@@ -16,6 +16,11 @@ export default new Router({
             path: '/contact',
             name: 'Contact',
             component: () => import("./components/pages/Contact")
+        },
+        {
+            path: '/airavata',
+            name: 'Airavata',
+            component: () => import("./components/pages/Airavata")
         }
     ]
 })

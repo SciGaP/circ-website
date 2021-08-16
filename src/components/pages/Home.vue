@@ -503,21 +503,6 @@ export default {
   margin-right: 9rem;
 }
 
-.home-head-text::after {
-  content: ' ';
-  display:block;
-  width: 50px;
-  border: 5px solid #990000;
-  border-radius:0px;
-  margin-bottom: 10px;
-}
-
-.head-text {
-  font-size: 36px;
-  line-height: 140%;
-  font-weight: bold;
-}
-
 .z-idx--1 {
   z-index: -1;
 }

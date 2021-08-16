@@ -88,6 +88,21 @@ export default {
   color: #000000;
 }
 
+.head-text {
+  font-size: 36px;
+  line-height: 140%;
+  font-weight: bold;
+}
+
+.home-head-text::after {
+  content: ' ';
+  display:block;
+  width: 50px;
+  border: 5px solid #990000;
+  border-radius:0px;
+  margin-bottom: 10px;
+}
+
 .wid-100-vw {
   width: 100vw;
 }
