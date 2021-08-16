@@ -285,6 +285,8 @@
         <div class="grid-container-column" style="z-index:3;column-gap: 1rem">
           <div>
             <reviewCard
+              width="387px"
+              height="365px"
               imageLink="marlon.png"
               firstName="Scott"
               position="Manager"
@@ -294,6 +296,8 @@
           </div>
           <div>
             <reviewCard
+              width="387px"
+              height="365px"
               imageLink="marlon.png"
               firstName="Scott"
               position="Manager"
@@ -303,6 +307,8 @@
           </div>
           <div>
             <reviewCard
+              width="387px"
+              height="365px"
               imageLink="marlon.png"
               firstName="Scott"
               position="Manager"

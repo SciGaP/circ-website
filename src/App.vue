@@ -72,6 +72,10 @@ export default {
   column-gap: 3.5rem;
 }
 
+.global-padding {
+  padding: 4rem 8rem;
+}
+
 .grid-container {
   display: grid;
   grid-template-areas: "a a a";

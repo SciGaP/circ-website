@@ -21,6 +21,11 @@ export default new Router({
             path: '/airavata',
             name: 'Airavata',
             component: () => import("./components/pages/Airavata")
+        },
+        {
+            path: '/case-study',
+            name: 'Case_Study',
+            component: () => import("./components/pages/CaseStudy")
         }
     ]
 })
