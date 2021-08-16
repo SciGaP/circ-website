@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-color-white link-text">
-    <div class="stat-card">
+  <div class="bg-color-white stat-card link-text">
+    <div class="stat-card-content">
       <div>
         <span>
           <svg width="81" height="81" viewBox="0 0 81 81" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,15 +24,12 @@ export default {
 </script>
 
 <style scoped>
-.bg-color-white {
-  background: #FFFFFF;
+.stat-card {
   box-shadow: 0px 4px 20px rgba(51, 51, 51, 0.12);
   border-radius: 10px;
-  width: 180px;
-  height: 180px;
 }
 
-.stat-card {
+.stat-card-content {
   padding-top: 15px;
   padding-bottom: 25px;
   margin-left: 20px;

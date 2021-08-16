@@ -61,6 +61,23 @@ export default {
   padding-right: 8rem;
 }
 
+.bg-color-white {
+  background: #FFFFFF;
+}
+
+.grid-container-column {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+  column-gap: 3.5rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "a a a";
+  gap: 3rem;
+}
+
 .link-text {
   font-family: Source Sans Pro;
   font-style: normal;

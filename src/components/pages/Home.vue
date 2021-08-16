@@ -44,7 +44,7 @@
             At our core, we care bout the impact and research work you do and we strive to support you in every way possible. We have <b>deployed numerous successfull Gateways</b> in various 
             domains which has attracted funding from <b>NASA</b> and the <b>National Science Foundation (NSF).</b>
           </p>
-          <input class="bor-rad hig-3r know-button link-text bg-crim-colo" type="submit" value="Know more About us">
+          <button class="bor-rad hig-3r airvata-button link-text bg-crim-colo">Know more About us</button>
           </div>
         </div>
         <div class="single-stat-card pos-r pad-right-8 hig-100-vh ">
@@ -58,35 +58,229 @@
     </div>
     <div class="supported_by f-s pos-r">
       <div class="pos-r"><span class="chem-bond z-idx--1 op-10"></span></div>
-      <div class="pos-r" style="margin-left:-4rem">
+      <div class="pos-r" style="margin-left:-4rem; padding-bottom:4rem;">
         <span class="home-head-text head-text link-text">We're supported by</span>
         <p style="line-height:160%; font-size:20px;">Most of the work we do is <b>backed</b> by the most <b>reputed scientific communities</b> in the country. <b>They trust us, so can you.</b></p>
+        <div class="grid-container-column support--1 link-text">
+          <div>
+            <div>
+              <img src="~@/assets/NSF.png" alt="NSF">
+            </div>
+            <div style="padding-top:40px;"><span style="font-size:32px; line-height:120%;"><b>National Sceience Foundation</b></span></div>
+          </div>
+          <div>
+            <div>
+              <img src="~@/assets/NASA.png" alt="NASA">
+            </div>
+            <div style="padding-top:40px;"><span style="font-size:32px; line-height:120%;"><b>NASA</b></span></div>
+          </div>
+          <div>
+            <div>
+              <img src="~@/assets/DOE.png" alt="DOE">
+            </div>
+            <div style="padding-top:40px;"><span style="font-size:32px; line-height:120%;"><b>Department of Energy</b></span></div>
+          </div>
+        </div>
+        <div class="grid-container-column support--2 link-text">
+          <div>
+            <div>
+              <img src="~@/assets/USDA.png" alt="USDA">
+            </div>
+            <div style="padding-top:40px;"><span style="font-size:32px; line-height:120%;"><b>U.S. Department of Agriculture</b></span></div>
+          </div>
+          <div>
+            <div>
+              <img src="~@/assets/NIH.png" alt="USDA">
+            </div>
+            <div style="padding-top:40px;bottom:0;"><span style="font-size:32px; line-height:120%;"><b>National Institute of Health</b></span></div>
+          </div>
+        </div>
+        <div>
+          <span class="home-head-text head-text lin-text">We're proud collaborators of</span>
+          <p style="line-height:160%; font-size:20px">Our collaboration with <b>XSEDE</b> and <b>SciGaP</b> lets us complement each other's strengths to produce <b>first-grade</b> Science Gateways.</p>
+          <div class="grid-container-column collbortors--1 link-text">
+          <div class="item-coll--1">
+            <span style="font-size:32px; line-height: 120%; font-weight:bold; text-align:center;"><br/>SGCI</span>
+          </div>
+          <div class="item-coll--2">
+            <span style="font-size:32px; line-height: 120%; font-weight:bold; text-align:center;"><br/>XSEDE</span>
+          </div>
+        </div>
+        </div>
       </div>
+      <div style="padding-botton:2rem"></div>
     </div>
-    <div class="collaborators_of">
-
-    </div>
-    <div class="domains">
-
+    <div class="domains f-s pos-r">
+      <div class="flask--1 pos-r"></div>
+      <div class="pos-r domain--content">
+        <span class="home-head-text head-text link-text">What domains do we operate in?</span>
+        <p style="line-height:160%; font-size:20px;">We can help you with your computational resources in any domain. We've got domian experts who can help develop a deeper understanding of the problem.</p>
+        <div class="grid-container domains--list">
+          <div>
+            <div class="domain-image">
+              <img src="@/assets/Domain_BS.png" alt="Biological Sciences">
+            </div>
+            <div class="domain-heading-text pos-r f-s">
+              <span style="padding-left:10px;">Biological Sciences</span>
+            </div>
+          </div>
+          <div>
+            <div class="domain-image">
+              <img src="@/assets/Domain_CISE.png" alt="Computer & Information Science & Engineering">
+            </div>
+            <div class="domain-heading-text pos-r f-s">
+              <span style="padding-left:10px;">Computer & Information Science & Engineering</span>
+            </div>
+          </div>
+          <div>
+            <div class="domain-image">
+              <img src="@/assets/Domain_EHR.png" alt="Education & Human Resources">
+            </div>
+            <div class="domain-heading-text pos-r f-s">
+              <span style="padding-left:10px;">Education & Human Resources</span>
+            </div>
+          </div>
+          <div>
+            <div class="domain-image">
+              <img src="@/assets/Domain_Eng.png" alt="Engineering">
+            </div>
+            <div class="domain-heading-text pos-r f-s">
+              <span style="padding-left:10px;">Engineering</span>
+            </div>
+          </div>
+          <div>
+            <div class="domain-image">
+              <img src="@/assets/Domain_ERE.png" alt="Environmental Research & Education">
+            </div>
+            <div class="domain-heading-text pos-r f-s">
+              <span style="padding-left:10px;">Environmental Research & Education</span>
+            </div>
+          </div>
+          <div>
+            <div class="domain-image">
+              <img src="@/assets/Domain_GS.png" alt="Geosciences">
+            </div>
+            <div class="domain-heading-text pos-r f-s">
+              <span style="padding-left:10px;">Geosciences</span>
+            </div>
+          </div>
+          <div>
+            <div class="domain-image">
+              <img src="@/assets/Domain_SBES.png" alt="Social Behavioral and Economic Sciences">
+            </div>
+            <div class="domain-heading-text pos-r f-s">
+              <span style="padding-left:10px;">Social Behavioral and Economic Sciences</span>
+            </div>
+          </div>
+          <div>
+            <div class="domain-image">
+              <img src="@/assets/Domain_MPS.png" alt="Mathematical and physical Sciences">
+            </div>
+            <div class="domain-heading-text pos-r f-s">
+              <span style="padding-left:10px;">Mathematical and physical Sciences</span>
+            </div>
+          </div>
+          <div>
+            <div class="domain-image">
+              <img src="@/assets/Domain_ISE.png" alt="International Science and Engineering">
+            </div>
+            <div class="domain-heading-text pos-r f-s">
+              <span style="padding-left:10px;">International Science and Engineering</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flask--2 pos-r"></div>
     </div>
     <div class="team">
+      <div class="team-content">
+        <div style="padding-bottom:2rem"><span class="home-head-text head-text link-text">Our High-Calibre team</span></div>
+        <div class="grid-container-column team-cards" style="text-align:center">
+          <div>
+            <teamCard 
+              firstName="Marlon" 
+              lastName="Pierce" 
+              imageLink="marlon.png"
+              position="director" 
+              talkAbout="CIRC, collaborating on a grant or using CIRC's services."
+              profileLink="https://scholar.google.com/citations?user=jAIppVwAAAAJ&hl=en"/>
+          </div>
+          <div>
+            <teamCard 
+              firstName="Marlon" 
+              lastName="Pierce" 
+              imageLink="marlon.png"
+              position="director" 
+              talkAbout="CIRC, collaborating on a grant or using CIRC's services."
+              profileLink="https://scholar.google.com/citations?user=jAIppVwAAAAJ&hl=en"/>
+          </div>
+          <div>
+            <teamCard 
+              firstName="Marlon" 
+              lastName="Pierce" 
+              imageLink="marlon.png"
+              position="director" 
+              talkAbout="CIRC, collaborating on a grant or using CIRC's services."
+              profileLink="https://scholar.google.com/citations?user=jAIppVwAAAAJ&hl=en"/>
+          </div>
+        </div>
+        <div style="padding-bottom:3rem"><span class="home-head-text head-text link-text">We take pride in our highly impactful work</span></div>
+        <div class="grid-container-column" style="text-align:center">
+          <div>
+            <div>
+              <img src="~@/assets/DREG.png" alt="DREG">
+            </div>
+            <div style="padding-top:40px;"><span style="font-size:32px; line-height:120%;"><b>dREG</b></span></div>
+          </div>
+          <div>
+            <div>
+              <img src="~@/assets/SEAGRID.png" alt="SEAGRID">
+            </div>
+            <div style="padding-top:40px;"><span style="font-size:32px; line-height:120%;"><b>SEAGRID</b></span></div>
+          </div>
+          <div>
+            <div>
+              <img src="~@/assets/SSRA.png" alt="DREG">
+            </div>
+            <div style="padding-top:40px;"><span style="font-size:32px; line-height:120%;"><b>Searching SRA</b></span></div>
+          </div>
+        </div>
+        <div style="text-align:center;padding-top:82px"><button class="bor-rad hig-3r airvata-button link-text bg-crim-colo">View a list of all our Gateways</button></div>
+        <div style="padding-top:6rem;padding-bottom:3rem;"><span class="home-head-text head-text link-text">Organizations we've worked with</span></div>
+        <div class="grid-container-column" style="text-align:center">
+          <div>
+            <div>
+              <img src="~@/assets/USD.png" alt="USD">
+            </div>
+            <div style="padding-top:40px;"><span style="font-size:32px; line-height:120%;"><b>University of South Dakota</b></span></div>
+          </div>
+          <div>
+            <div>
+              <img src="~@/assets/UAB.png" alt="UAB">
+            </div>
+            <div style="padding-top:40px;"><span style="font-size:32px; line-height:120%;"><b>University of Alabama at Birmingham</b></span></div>
+          </div>
+          <div>
+            <div>
+              <img src="~@/assets/Georgia_Tech.png" alt="GT">
+            </div>
+            <div style="padding-top:40px;"><span style="font-size:32px; line-height:120%;"><b>Georiga Tech</b></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="reviews">
 
     </div>
-    <div class="impact_work">
-
-    </div>
-    <div class="worked_with">
-
-    </div>
-    <div class="reviews"></div>
   </div>
 </template>
 
 <script>
 import statCard from '../overlay/statCard';
+import teamCard from '../overlay/teamCard';
 export default {
     name: 'Home',
-    components: {statCard}
+    components: {statCard, teamCard}
 }
 </script>
 
@@ -95,6 +289,47 @@ export default {
 .two-cards {
   right: 8.334vh;
 }
+
+.domain-image {
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+
+.domain--content {
+  padding: 7.5rem;
+}
+
+.team-content {
+  padding: 7.5rem;
+}
+
+.team-cards {
+  padding-bottom: 5rem;
+}
+
+.flask--1 {
+  background: url('~@/assets/flask_1.png');
+  opacity: 0.03;
+  transform: rotate(8.4deg);
+  left: -71.82px;
+}
+
+.domain-heading-text {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.domain-heading-text::after {
+  content: ' ';
+  display: block;
+  width: 4px;
+  height: -webkit-fill-available;
+  left: 0px;
+  position: absolute;
+  background: #990000;
+}
+
 .home_page .landing_sc {
   flex-direction: row;
   position: relative;
@@ -106,6 +341,66 @@ export default {
   padding-bottom: 180px;
 }
 
+.item--1::before {
+  content: url('~@/assets/NSF.png');
+  vertical-align: bottom;
+}
+.item--2::before {
+  content: url('~@/assets/NASA.png');
+  vertical-align: bottom;
+}
+
+.item--3::before {
+  content: url('~@/assets/DOE.png');
+  vertical-align: bottom;
+}
+
+.item--3 {
+  margin-top: 2rem;
+}
+
+.item--4::before {
+  content: url('~@/assets/USDA.png');
+  vertical-align: bottom;
+}
+.item--5::before {
+  content: url('~@/assets/NIH.png');
+  vertical-align: bottom;
+}
+
+.item--5 {
+  margin-top: 1.5rem;
+}
+
+.item-coll--1::before {
+  content: url('~@/assets/SGCI.png');
+  vertical-align: bottom;
+}
+
+.item-coll--2::before {
+  content: url('~@/assets/XSEDE.png');
+  vertical-align: bottom;
+}
+
+.item-coll--1 {
+  margin-top: 4rem;
+}
+
+.support--1 {
+  margin: 3rem;
+  text-align: center;
+}
+
+.support--2 {
+  margin: 6rem;
+  text-align: center;
+}
+
+.collbortors--1 {
+  margin: 3rem;
+  text-align: center;
+}
+
 .single-stat-card {
   padding-top: 11rem;
 }
@@ -114,7 +409,7 @@ export default {
   opacity: 0.1;
 }
 
-.know-button {
+.airvata-button {
   color: white;
   font-size: 20px;
   padding: 16px 36px;
@@ -223,6 +518,12 @@ export default {
   display: flex;
   background: #EDEBEB80;
   margin-bottom: 6rem;
+}
+
+.domains {
+  background: #EDEBEB80;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
 }
 
 .atom-structure::after {
