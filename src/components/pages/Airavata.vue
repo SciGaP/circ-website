@@ -193,7 +193,7 @@
 						<p style="font-size:20px;line-height:160%;color:#45382B"> Science Gateways are easy to build but hard to sustain. Key developers come and go. Scaling up to support growing user communities and more demanding usage takes a lot of work. Things go wrong at the worst times. SciGaP's goal is to help gateways address these problems. <a href="">SciGaP</a>  is powered by <b>Apache Airavata.</b></p>
 					</div>
 					<div class="block" style="right:0;padding-right:15px;">
-						<img src="@/assets/SciGap_logo.png" alt="">
+						<img src="@/assets/SciGap_logo.png" alt="SciGap">
 					</div>
 				</div>
 			</div>

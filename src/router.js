@@ -31,6 +31,12 @@ export default new Router({
             path: '/projects',
             name: 'projects',
             component: () => import("./components/pages/Projects")
+		},
+		{
+            path: '/services',
+            name: 'Services',
+            component: () => import("./components/pages/Services")
+
         }
     ]
 })

@@ -73,7 +73,7 @@ export default {
 }
 
 .global-padding {
-  padding: 4rem 8rem;
+  padding: 4rem 7.5rem;
 }
 
 .grid-container {
@@ -96,6 +96,21 @@ export default {
   font-size: 36px;
   line-height: 140%;
   font-weight: bold;
+}
+
+.head-text--2 {
+  font-size: 40px;
+  line-height: 140%;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.white-head-text::after {
+  content: ' ';
+  display: block;
+  width: 50px;
+  height: 10px;
+  background: #FFFFFF;
 }
 
 .home-head-text::after {
