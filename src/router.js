@@ -28,6 +28,11 @@ export default new Router({
             component: () => import("./components/pages/CaseStudy")
         },
         {
+            path: '/projects',
+            name: 'projects',
+            component: () => import("./components/pages/Projects")
+		},
+		{
             path: '/services',
             name: 'Services',
             component: () => import("./components/pages/Services")
