@@ -24,13 +24,18 @@ export default new Router({
         },
         {
             path: '/case-study',
-            name: 'Case_Study',
+            name: 'Case-Study',
             component: () => import("./components/pages/CaseStudy")
         },
         {
             path: '/services',
             name: 'Services',
             component: () => import("./components/pages/Services")
+        },
+        {
+            path: '/about-us',
+            name: 'About-Us',
+            component: () => import("./components/pages/AboutUs")
         }
     ]
 })
