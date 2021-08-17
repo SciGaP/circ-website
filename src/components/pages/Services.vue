@@ -59,6 +59,89 @@
 			</div>
 			<div style="padding-bottom:2rem;padding-top:4rem"><span class="home-head-text head-text link-text">The Tree of our Expertise</span></div>
 		</div>
+		<div class="link-text">
+			<div class="service-heading">
+				<div class="global-padding" style="padding-top:53px;padding-bottom:0rem"><span class="white-head-text head-text--2 link-text">Full stack cybeinfrastructure</span></div>
+			</div>
+			<div class="service-grid global-padding">
+				<div>
+					<span style="font-size:32px;line-height:120%;"><b>Our Service</b></span> 
+					<p style="font-size:20px;line-height:160%">We develop fullstack scientific softwares which have the best user experience. We make sure to think about the end users of the software which we are building. We start by understanding your problems and who will be using the software. We continuously iterate on solutions to deliver a consistent and efficient experience. </p>
+				</div>
+				<div>
+					<span style="font-size:32px;line-height:120%;"><b>How will it benefit you?</b></span> 
+					<p style="font-size:20px;line-height:160%">When the end users use softwares which have a good experience, they are able to reach their goals efficiently. By observing the way users interact with a product or service, we can become aware of specific behaviors that provide a different perspective on a problem. </p>
+				</div>
+			</div>
+			<div class="service-heading">
+				<div class="global-padding" style="padding-top:53px;padding-bottom:0rem"><span class="white-head-text head-text--2 link-text">Science gateways</span></div>
+			</div>
+			<div class="service-grid global-padding">
+				<div>
+					<span style="font-size:32px;line-height:120%;"><b>Our Service</b></span> 
+					<p style="font-size:20px;line-height:160%">We develop fullstack scientific softwares which have the best user experience. We make sure to think about the end users of the software which we are building. We start by understanding your problems and who will be using the software. We continuously iterate on solutions to deliver a consistent and efficient experience. </p>
+				</div>
+				<div>
+					<span style="font-size:32px;line-height:120%;"><b>How will it benefit you?</b></span> 
+					<p style="font-size:20px;line-height:160%">When the end users use softwares which have a good experience, they are able to reach their goals efficiently. By observing the way users interact with a product or service, we can become aware of specific behaviors that provide a different perspective on a problem. </p>
+				</div>
+			</div>
+			<div class="service-heading">
+				<div class="global-padding" style="padding-top:53px;padding-bottom:0rem"><span class="white-head-text head-text--2 link-text">Data Management</span></div>
+			</div>
+			<div class="service-grid global-padding">
+				<div>
+					<span style="font-size:32px;line-height:120%;"><b>Our Service</b></span> 
+					<p style="font-size:20px;line-height:160%">We develop fullstack scientific softwares which have the best user experience. We make sure to think about the end users of the software which we are building. We start by understanding your problems and who will be using the software. We continuously iterate on solutions to deliver a consistent and efficient experience. </p>
+				</div>
+				<div>
+					<span style="font-size:32px;line-height:120%;"><b>How will it benefit you?</b></span> 
+					<p style="font-size:20px;line-height:160%">When the end users use softwares which have a good experience, they are able to reach their goals efficiently. By observing the way users interact with a product or service, we can become aware of specific behaviors that provide a different perspective on a problem. </p>
+				</div>
+			</div>
+			<div class="service-heading">
+				<div class="global-padding" style="padding-top:53px;padding-bottom:0rem"><span class="white-head-text head-text--2 link-text">Computational Infrastructure</span></div>
+			</div>
+			<div class="service-grid global-padding">
+				<div>
+					<span style="font-size:32px;line-height:120%;"><b>Our Service</b></span> 
+					<p style="font-size:20px;line-height:160%">We develop fullstack scientific softwares which have the best user experience. We make sure to think about the end users of the software which we are building. We start by understanding your problems and who will be using the software. We continuously iterate on solutions to deliver a consistent and efficient experience. </p>
+				</div>
+				<div>
+					<span style="font-size:32px;line-height:120%;"><b>How will it benefit you?</b></span> 
+					<p style="font-size:20px;line-height:160%">When the end users use softwares which have a good experience, they are able to reach their goals efficiently. By observing the way users interact with a product or service, we can become aware of specific behaviors that provide a different perspective on a problem. </p>
+				</div>
+			</div>
+			<div class="service-heading">
+				<div class="global-padding" style="padding-top:53px;padding-bottom:0rem"><span class="white-head-text head-text--2 link-text">Security stack</span></div>
+			</div>
+			<div class="service-grid global-padding">
+				<div>
+					<span style="font-size:32px;line-height:120%;"><b>Our Service</b></span> 
+					<p style="font-size:20px;line-height:160%">We develop fullstack scientific softwares which have the best user experience. We make sure to think about the end users of the software which we are building. We start by understanding your problems and who will be using the software. We continuously iterate on solutions to deliver a consistent and efficient experience. </p>
+				</div>
+				<div>
+					<span style="font-size:32px;line-height:120%;"><b>How will it benefit you?</b></span> 
+					<p style="font-size:20px;line-height:160%">When the end users use softwares which have a good experience, they are able to reach their goals efficiently. By observing the way users interact with a product or service, we can become aware of specific behaviors that provide a different perspective on a problem. </p>
+				</div>
+			</div>
+			<div class="service-heading">
+				<div class="global-padding" style="padding-top:53px;padding-bottom:0rem"><span class="white-head-text head-text--2 link-text">User Experience</span></div>
+			</div>
+			<div class="service-grid global-padding">
+				<div>
+					<span style="font-size:32px;line-height:120%;"><b>Our Service</b></span> 
+					<p style="font-size:20px;line-height:160%">We develop fullstack scientific softwares which have the best user experience. We make sure to think about the end users of the software which we are building. We start by understanding your problems and who will be using the software. We continuously iterate on solutions to deliver a consistent and efficient experience. </p>
+				</div>
+				<div>
+					<span style="font-size:32px;line-height:120%;"><b>How will it benefit you?</b></span> 
+					<p style="font-size:20px;line-height:160%">When the end users use softwares which have a good experience, they are able to reach their goals efficiently. By observing the way users interact with a product or service, we can become aware of specific behaviors that provide a different perspective on a problem. </p>
+				</div>
+			</div>
+			<div class="global-padding">
+				<div style="padding-bottom:4rem"><span style="font-size:44px;line-height:120%"><b>Have a <span class="crim-colo">gateway requirement?</span> <br/> Let’s talk shop.</b></span></div>
+			</div>
+		</div>
 	</div>
 </template>
 
@@ -76,6 +159,19 @@ export default {
 img {
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 	border-radius: 5px 50px 5px 50px;
+}
+
+.service-grid {
+	display: grid;
+	grid-template-areas: "a a";
+	column-gap: 218px;
+	color: #333333;
+}
+
+.service-heading {
+	background: url("~@/assets/Heading_bg.png");
+	width: 1440px;
+	height: 174px;
 }
 
 </style>
