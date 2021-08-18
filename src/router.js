@@ -41,6 +41,11 @@ export default new Router({
             path: '/about-us',
             name: 'About-Us',
             component: () => import("./components/pages/AboutUs")
+        },
+        {
+            path: '/teams',
+            name: 'Teams',
+            component: () => import("./components/pages/Teams")
         }
     ]
 })
