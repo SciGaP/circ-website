@@ -34,12 +34,12 @@
               </button>
             </li>
             <li class="main-nav-li nav-li pos-r">
-              <button class="bgcl-in nav-primary nav-primary--team  hover-text link-text nav-button">
+              <button class="bgcl-in nav-primary nav-primary--team  hover-text link-text nav-button" onclick="window.location.href='./teams'">
                 <span>The team</span>
               </button>
             </li>
             <li class="main-nav-li nav-li pos-r">
-              <button class="bgcl-in nav-primary nav-primary--about hover-text link-text nav-button">
+              <button class="bgcl-in nav-primary nav-primary--about hover-text link-text nav-button" onclick="window.location.href='./about-us'">
                 <span>About us</span>
               </button>
             </li>
@@ -58,7 +58,7 @@
     <div class="mega-menu-section block" :class="this.menu_active?'active':''">
       <nav class='f-s'>
         <li class='flyout-panel pos-r f-s link-text'>
-          <div class="grid-container-column">
+          <div class="grid-container-column" style="column-gap: 1rem;">
             <div class="flyout-panel-section flyout-panel-section-pos--1 no-after pos-r">
               <span class="flyout-head-text">Core Platform</span>
               <ul class='flyout-ul'>
