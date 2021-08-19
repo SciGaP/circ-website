@@ -82,6 +82,12 @@ export default {
   gap: 3rem;
 }
 
+.grid-container--2 {
+  display: grid;
+  grid-template-areas: "a a";
+  gap: 5px;
+}
+
 .link-text {
   font-family: Source Sans Pro;
   font-style: normal;
