@@ -308,6 +308,7 @@ img {
 	width: 3px;
 	background-color: #DBDADA;
 	height: 40px;
+	margin-left: 3px;
 	margin-top: -40px;
 }
 
@@ -321,7 +322,7 @@ img {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     margin-top: -371px;
-    margin-left: -8.34px;
+    margin-left: -5.34px;
 }
 
 .child-containers--2::before {
@@ -330,9 +331,9 @@ img {
 	height: 3px;
 	width: 100%;
 	background-color: #DBDADA;
-	width: 38.9%;
-  margin-left: 178px;
-  margin-top: -40px;
+	width: 39.2%;
+  	margin-left: 182px;
+  	margin-top: -40px;
 }
 
 .child-containers--3::before {
@@ -341,9 +342,9 @@ img {
 	height: 3px;
 	width: 100%;
 	background-color: #DBDADA;
-	width: 57.6%;
-  margin-left: 178px;
-  margin-top: -40px;
+	width: 58.2%;
+  	margin-left: 182px;
+  	margin-top: -40px;
 }
 
 .child-containers--2 {

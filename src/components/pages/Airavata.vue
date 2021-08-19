@@ -297,9 +297,6 @@ export default {
 	z-index:-1;
 }
 
-.puzzle--1 {
-	background: url();
-}
 
 .grid-container-airavata {
 	padding-bottom: 10rem;
