@@ -19,6 +19,64 @@
         </div>
         <div class="global-padding" style="background:#FAF9F9">
 			<div style="padding-bottom:2rem"><span class="home-head-text head-text link-text">Projects</span></div>
+            
+            <div class="grid-container domains--list">
+                <div class="grid-container-column support--1 link-text">
+                    <projectCard
+                            name="Electron microscopy Center"
+                            company="Indiana University"
+                            description="Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy."
+                    />
+                </div>
+                <div class="grid-container-column support--2 link-text">
+                    <projectCard
+                            name="Electron microscopy Center"
+                            company="Indiana University"
+                            description="Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy."
+                    />
+                </div>
+                <div class="grid-container-column support--3 link-text">
+                    <projectCard
+                            name="Electron microscopy Center"
+                            company="Indiana University"
+                            description="Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy."
+                    />
+                </div>
+                <div class="grid-container-column support--1 link-text">
+                    <projectCard
+                            name="Electron microscopy Center"
+                            company="Indiana University"
+                            description="Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy."
+                    />
+                </div>
+                <div class="grid-container-column support--2 link-text">
+                    <projectCard
+                            name="Electron microscopy Center"
+                            company="Indiana University"
+                            description="Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy."
+                    />
+                </div>
+                <div class="grid-container-column support--3 link-text">
+                    <projectCard
+                            name="Electron microscopy Center"
+                            company="Indiana University"
+                            description="Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy."
+                    />
+                </div><div class="grid-container-column support--1 link-text">
+                    <projectCard
+                            name="Electron microscopy Center"
+                            company="Indiana University"
+                            description="Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy."
+                    />
+                </div>
+                <div class="grid-container-column support--2 link-text">
+                    <projectCard
+                            name="Electron microscopy Center"
+                            company="Indiana University"
+                            description="Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy."
+                    />
+                </div>
+            </div>
         </div>
 
         <div class="global-padding" style="background:#FAF9F9">
@@ -28,10 +86,11 @@
 </template>
 
 <script>
-import reviewCard from "../overlay/reviewCard";
+import projectCard from '../overlay/projectCard';
 export default {
 	name: 'projects',
-	components: {reviewCard}
+	components: {projectCard},
+
 }
 </script>
 <style scoped>
