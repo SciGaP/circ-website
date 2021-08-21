@@ -392,7 +392,9 @@ export default {
   content: ' ';
   display: block;
   width: 4px;
-  height: -webkit-fill-available;
+  height: -moz-available;        
+  height: -webkit-fill-available; 
+  height: fill-available;
   left: 0px;
   position: absolute;
   background: #990000;
