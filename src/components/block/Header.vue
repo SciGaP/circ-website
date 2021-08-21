@@ -76,16 +76,16 @@
                   </div>
                 </li>
                 <li class='flyout-li'>
-                  <a class="flyout-link" href=""><span>Overview &#8250;</span></a>
+                  <a class="flyout-link" v-on:click="onClickLink('./airavata#introduction')" ><span>Overview &#8250;</span></a>
                 </li>
                 <li class='flyout-li'>
-                  <a class="flyout-link" href=""><span>Capabilities &#8250;</span></a>
+                  <a class="flyout-link" v-on:click="onClickLink('./airavata#capabilities')" ><span>Capabilities &#8250;</span></a>
                 </li>
                 <li class='flyout-li'>
-                  <a class="flyout-link" href=""><span>Integration &#8250;</span></a>
+                  <a class="flyout-link" v-on:click="onClickLink('./airavata#integration')" ><span>Integration &#8250;</span></a>
                 </li>
                 <li class='flyout-li'>
-                  <a class="flyout-link" href=""><span>Learning Airavata &#8250;</span></a>
+                  <a class="flyout-link" v-on:click="onClickLink('./airavata#earn-more')" ><span>Learning Airavata &#8250;</span></a>
                 </li>
               </ul>
             </div>
@@ -169,6 +169,10 @@ export default {
       },
       SolutionHandleClick (){
         this.menu_active = this.menu_active^1;
+      },
+      onClickLink (path) {
+        this.$router.push({path: path});
+        this.SolutionHandleClick();
       }
     },
 
@@ -299,5 +303,9 @@ export default {
 
 .down-vector {
   padding-left: 5px;
+}
+
+a {
+  cursor: pointer;
 }
 </style>

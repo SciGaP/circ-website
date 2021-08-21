@@ -47,5 +47,12 @@ export default new Router({
             name: 'Teams',
             component: () => import("./components/pages/Teams")
         }
-    ]
+    ],
+    scrollBehavior (to, from, savedPosition) {
+        if(to.hash) 
+            return { selector: to.hash}
+        else if (savedPosition)
+            return savedPosition
+        return { x: 0, y: 0 }
+    }
 })

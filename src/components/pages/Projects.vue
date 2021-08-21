@@ -14,7 +14,7 @@
                 <br/>
                 <div class=square>
                     <div class="arrow" style="cursor: pointer;">
-                    <svg width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg v-on:click="$router.push({path: './projects#projects'})" width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M2.35 0.316578L10 7.94991L17.65 0.316578L20 2.66658L10 12.6666L0 2.66658L2.35 0.316578Z" fill="black"/>
                     </svg>
                     </div>
@@ -28,7 +28,7 @@
 
 
         
-        <div class="global-padding" style="background:#FAF9F9">
+        <div id="projects" class="global-padding" style="background:#FAF9F9">
 			<div style="padding-bottom:2rem"><span class="home-head-text head-text link-text">Projects</span></div>
             
 
@@ -46,7 +46,7 @@
 			</div>
         </div>
 
-        <div class="global-padding" style="background:#FAF9F9">
+        <div id="publications" class="global-padding" style="background:#FAF9F9">
 			<div style="padding-bottom:2rem"><span class="home-head-text head-text link-text">Key Publications</span></div>
             <div>
                 <ol>

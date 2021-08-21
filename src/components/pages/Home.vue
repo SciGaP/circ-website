@@ -15,7 +15,7 @@
         <div class='scroll_down'>
           <div class=square>
             <div class="arrow">
-              <svg width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg v-on:click="$router.push({path: './#who-are-we'})" width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M2.35 0.316578L10 7.94991L17.65 0.316578L20 2.66658L10 12.6666L0 2.66658L2.35 0.316578Z" fill="black"/>
               </svg>
             </div>
@@ -35,7 +35,7 @@
           <circle cx="268.5" cy="268.5" r="253.5" stroke="black" stroke-opacity="0.5" stroke-width="30"/>
         </svg>
       </span>
-      <div class="block f-s wid-100-vw hig-100-vh global-padding" style="padding-top:0rem">
+      <div id="who-are-we" class="block f-s wid-100-vw hig-100-vh global-padding" style="padding-top:0rem">
         <div class="pos-r who-content">
           <div>
           <span class="home-head-text head-text">Who are we?</span>
@@ -386,15 +386,14 @@ export default {
   font-size: 24px;
   font-weight: 600;
   line-height: 120%;
+  box-sizing: border-box;
 }
 
 .domain-heading-text::after {
   content: ' ';
   display: block;
-  width: 4px;
-  height: -moz-available;        
-  height: -webkit-fill-available; 
-  height: fill-available;
+  width: 4px;     
+  height: 100%;
   left: 0px;
   position: absolute;
   background: #990000;

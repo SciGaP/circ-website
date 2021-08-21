@@ -16,7 +16,7 @@
         <div class="contents">
           <nav>
             <ul>
-              <li v-for="sitemapLink in sitemapLinks" :key="sitemapLink.name"><span>{{ sitemapLink.name }}</span></li>
+              <li v-for="sitemapLink in sitemapLinks" :key="sitemapLink.name"><span v-on:click="$router.push({path: sitemapLink.link})" >{{ sitemapLink.name }}</span></li>
             </ul>
           </nav>
         </div>
@@ -26,7 +26,7 @@
         <div class="contents">
           <nav>
             <ul>
-              <li v-for="airavataLink in airavataLinks" :key="airavataLink.name"><span>{{ airavataLink.name }}</span></li>
+              <li v-for="airavataLink in airavataLinks" :key="airavataLink.name"><span v-on:click="$router.push({path: airavataLink.link})" >{{ airavataLink.name }}</span></li>
             </ul>
           </nav>
         </div>
@@ -42,7 +42,7 @@
         </div>
       </div>
       <div class="up-arrow">
-        <span class="dot">
+        <span v-on:click="scrollTop" class="dot">
           <div class="square">
             <div class="angle-vector">
               <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg"> 
@@ -69,17 +69,17 @@ export default {
   data() {
     return {
       sitemapLinks: [
-        {name:'About us', link: ''},
-        {name:'Services', link: ''},
-        {name:'Publications', link: ''},
-        {name:'Projects', link: ''},
-        {name:'The Team', link: ''},
+        {name:'About us', link: './about-us'},
+        {name:'Services', link: './services'},
+        {name:'Publications', link: './projects#publications'},
+        {name:'Projects', link: './projects'},
+        {name:'The Team', link: './team'},
       ],
       airavataLinks: [
-        {name:'Introduction', link: ''},
-        {name:'Capabilities', link: ''},
-        {name:'Integration', link: ''},
-        {name:'Learn more', link: ''}
+        {name:'Introduction', link: './airavata#introduction'},
+        {name:'Capabilities', link: './airavata#capabilities'},
+        {name:'Integration', link: './airavata#integration'},
+        {name:'Learn more', link: './airavata#learn-more'}
       ],
       contactLinks: [
         {name:'2709 E 10th St,Bloomington, IN 47408', link: ''},
@@ -87,6 +87,11 @@ export default {
       ]
     }
   },
+  methods: {
+    scrollTop() {
+      window.scrollTo(0,0);
+    }
+  }
 
 }
 
