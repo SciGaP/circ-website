@@ -11,72 +11,39 @@
                         of many Scientific communities and delivered excellent products to them.
                     </p>
                 </div>
+                <br/>
+                <div class=square>
+                    <div class="arrow" style="cursor: pointer;">
+                    <svg width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.35 0.316578L10 7.94991L17.65 0.316578L20 2.66658L10 12.6666L0 2.66658L2.35 0.316578Z" fill="black"/>
+                    </svg>
+                    </div>
+                </div>
             </div>
             <div style="width:60%">
 				    <img src="@/assets/Macbook Pro Tilted Screen Mockup.png" alt="">
             </div>
 
         </div>
+
+
+        
         <div class="global-padding" style="background:#FAF9F9">
 			<div style="padding-bottom:2rem"><span class="home-head-text head-text link-text">Projects</span></div>
             
-            <div class="grid-container domains--list">
-                <div class="grid-container-column support--1 link-text">
-                    <projectCard
-                            name="Electron microscopy Center"
-                            company="Indiana University"
-                            description="Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy."
-                    />
-                </div>
-                <div class="grid-container-column support--2 link-text">
-                    <projectCard
-                            name="Electron microscopy Center"
-                            company="Indiana University"
-                            description="Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy."
-                    />
-                </div>
-                <div class="grid-container-column support--3 link-text">
-                    <projectCard
-                            name="Electron microscopy Center"
-                            company="Indiana University"
-                            description="Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy."
-                    />
-                </div>
-                <div class="grid-container-column support--1 link-text">
-                    <projectCard
-                            name="Electron microscopy Center"
-                            company="Indiana University"
-                            description="Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy."
-                    />
-                </div>
-                <div class="grid-container-column support--2 link-text">
-                    <projectCard
-                            name="Electron microscopy Center"
-                            company="Indiana University"
-                            description="Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy."
-                    />
-                </div>
-                <div class="grid-container-column support--3 link-text">
-                    <projectCard
-                            name="Electron microscopy Center"
-                            company="Indiana University"
-                            description="Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy."
-                    />
-                </div><div class="grid-container-column support--1 link-text">
-                    <projectCard
-                            name="Electron microscopy Center"
-                            company="Indiana University"
-                            description="Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy."
-                    />
-                </div>
-                <div class="grid-container-column support--2 link-text">
-                    <projectCard
-                            name="Electron microscopy Center"
-                            company="Indiana University"
-                            description="Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy."
-                    />
-                </div>
-            </div>
+
+
+            <div style="display:flex;column-gap:24px;padding-bottom:6rem">
+				<div v-for="filter in filterList" :key="filter">
+					<button class="filter-button link-text" :class="isFilterSelected(filter)?'filter-button-selected':''" v-on:click="onClickFilter(filter)">{{filter}}</button>
+				</div>
+			</div>
+
+            <div class="grid-container" style="column-gap:20px;row-gap:60px;">
+				<div v-for="project in filteredProjects" :key="project.id">
+					<projectCard :project="project" />
+				</div>
+			</div>
         </div>
 
         <div class="global-padding" style="background:#FAF9F9">
@@ -132,7 +99,95 @@ export default {
 	components: {
         projectCard,
         publicationCard
+        },
+    data: function(){
+        return {
+            test:0,
+            selected_filters:[],
+            projectsList:[
+                {
+                    name:"Electron microscopy Center",
+                    company:"Indiana University",
+                    description:"Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy.",
+                    domain:"science",
+                    id:1   
+                },
+                 {
+                    name:"Electron microscopy Center",
+                    company:"Indiana University",
+                    description:"Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy.",
+                    domain:"Social",
+                    id:2   
+                },
+                 {
+                    name:"Electron microscopy Center",
+                    company:"Indiana University",
+                    description:"Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy.",
+                    domain:"Physics",
+                    id:3     
+                }, 
+                {
+                    name:"Electron microscopy Center",
+                    company:"Indiana University",
+                    description:"Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy.",
+                    domain:"science",
+                    id:4   
+                },
+                 {
+                    name:"Electron microscopy Center",
+                    company:"Indiana University",
+                    description:"Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy.",
+                    domain:"Social",
+                    id:5  
+                },
+                 {
+                    name:"Electron microscopy Center",
+                    company:"Indiana University",
+                    description:"Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy.",
+                    domain:"Physics",
+                    id:6   
+                },
+                {
+                    name:"Electron microscopy Center",
+                    company:"Indiana University",
+                    description:"Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy.",
+                    domain:"science",
+                    id:7    
+                },
+                 {
+                    name:"Electron microscopy Center",
+                    company:"Indiana University",
+                    description:"Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy.",
+                    domain:"Social",
+                    id:8   
+                }
+            ]
         }
+    },
+    computed: {
+		filterList: function() {
+			var filter_list = [];
+			this.projectsList.forEach(x => filter_list.push(x.domain));
+			return [... new Set(filter_list)];
+		},
+		filteredProjects: function() {
+			if(this.selected_filters.length==0)
+				return this.projectsList;
+			return this.projectsList.filter(project => this.selected_filters.includes(project.domain));
+		}
+	},
+	methods: {
+		isFilterSelected(filter) {
+			return this.selected_filters.includes(filter);
+		},
+		onClickFilter(filter) {
+			if(this.selected_filters.includes(filter)){
+				this.selected_filters = this.selected_filters.filter(item => item != filter);
+			}else{
+				this.selected_filters.push(filter);
+			}			
+		}
+	}
 }
 </script>
 <style scoped>

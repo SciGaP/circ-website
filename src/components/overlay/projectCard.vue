@@ -4,9 +4,9 @@
 			<!-- <img :src="require(`@/assets/${imageLink}`)" :alt="firstName[0].toUpperCase()+''+lastName[0].toUpperCase()"> -->
 		</div>
 		<div style="padding:20px 15px">
-			<span style="font-size:32px;line-height:120%;color:#333333"><b>{{ name }}</b></span><br/>
-			<span style="padding-top:15px;font-size:24px;ine-height:140%;color:#868585">{{ company }}</span><br/>
-			<p style="font-size:20px;line-height:160%;color:#45382B">{{ description }}</p>
+			<span style="font-size:32px;line-height:120%;color:#333333"><b>{{ project.name }}</b></span><br/>
+			<span style="padding-top:15px;font-size:24px;ine-height:140%;color:#868585">{{project.company }}</span><br/>
+			<p style="font-size:20px;line-height:160%;color:#45382B">{{ project.description }}</p>
 			<a href="">View Project ></a>
 		</div>
 	</div>
@@ -15,7 +15,9 @@
 <script>
 export default {
 	name: 'projectCard',
-	props: ['name', 'company', 'description', 'projectLink', 'imageLink']
+	props: {
+		project:Object
+	}
 }
 </script>
 
@@ -25,6 +27,7 @@ export default {
 	background: #FFFFFF;
 	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
 	border-radius: 5px;
+	width: 387px;
 }
 
 img {

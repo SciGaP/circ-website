@@ -115,7 +115,7 @@
       <div class="pos-r domain--content">
         <span class="home-head-text head-text link-text">What domains do we operate in?</span>
         <p style="line-height:160%; font-size:20px;">We can help you with your computational resources in any domain. We've got domian experts who can help develop a deeper understanding of the problem.</p>
-        <div class="grid-container domains--list">
+        <div class="grid-container">
           <div>
             <div class="domain-image">
               <img src="@/assets/Domain_BS.png" alt="Biological Sciences">

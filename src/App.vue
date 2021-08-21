@@ -146,6 +146,7 @@ export default {
   border: 5px solid #990000;
   border-radius:0px;
   margin-bottom: 10px;
+  background:#990000;
 }
 
 .wid-100-vw {

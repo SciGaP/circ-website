@@ -28,26 +28,8 @@
 				<span class="home-head-text head-text link-text">Solutions we’ve customised for you</span>
 			</div>
 			<div class="grid-container-column" style="column-gap:1rem;margin-bottom:2rem">
-				<div>
-					<projectCard
-						name="Electron microscopy Center"
-						company="Indiana University"
-						description="Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy."
-					/>
-				</div>
-				<div>
-					<projectCard
-						name="Electron microscopy Center"
-						company="Indiana University"
-						description="Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy."
-					/>
-				</div>
-				<div>
-					<projectCard
-						name="Electron microscopy Center"
-						company="Indiana University"
-						description="Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy."
-					/>
+				<div v-for="project in projectsList" :key="project.id">
+					<projectCard :project="project" />
 				</div>
 			</div>
 		</div>
@@ -266,6 +248,35 @@ import projectCard from '../overlay/projectCard';
 export default {
 	name: 'Services',
 	components: {projectCard},
+	data: function(){
+        return {
+            test:0,
+            selected_filters:[],
+            projectsList:[
+                {
+                    name:"Electron microscopy Center",
+                    company:"Indiana University",
+                    description:"Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy.",
+                    domain:"science",
+                    id:1   
+                },
+                 {
+                    name:"Electron microscopy Center",
+                    company:"Indiana University",
+                    description:"Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy.",
+                    domain:"Social",
+                    id:2   
+                },
+                 {
+                    name:"Electron microscopy Center",
+                    company:"Indiana University",
+                    description:"Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy.",
+                    domain:"Physics",
+                    id:3     
+                }
+            ]
+        }
+    }
 
 }
 </script>
