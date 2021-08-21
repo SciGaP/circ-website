@@ -98,6 +98,26 @@ export default {
   color: #000000;
 }
 
+.filter-button {
+  border: 1px solid #EDEBEB;
+  box-sizing: border-box;
+  border-radius: 60px;
+  background: #FFFFFF;
+
+  color: #333333;
+
+  padding: 14px 40px;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+.filter-button-selected {
+  background: #990000;
+  color: #FFFFFF;
+}
+
 .head-text {
   font-size: 36px;
   line-height: 140%;

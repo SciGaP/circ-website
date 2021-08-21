@@ -35,7 +35,7 @@
           <circle cx="268.5" cy="268.5" r="253.5" stroke="black" stroke-opacity="0.5" stroke-width="30"/>
         </svg>
       </span>
-      <div class="block f-s wid-100-vw hig-100-vh">
+      <div class="block f-s wid-100-vw hig-100-vh global-padding" style="padding-top:0rem">
         <div class="pos-r who-content">
           <div>
           <span class="home-head-text head-text">Who are we?</span>
@@ -503,10 +503,8 @@ export default {
 .who-content {
   width: 40vw;
   height: 100vh;
-  padding-top: 8rem;
-  padding-left: 8rem;
-  padding-right: 2rem;
-  margin-right: 9rem;
+  padding-top: 7rem;
+  margin-right: 12rem;
 }
 
 .z-idx--1 {

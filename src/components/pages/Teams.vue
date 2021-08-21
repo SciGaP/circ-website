@@ -10,14 +10,17 @@
 
 			<div style="padding-bottom:2rem;padding-top:3rem"><span class="home-head-text head-text link-text">People</span></div>
 
-			
-
-			<div class="grid-container--2" style="column-gap:94px;row-gap:110px;">
-				<div v-for="people in peoples" :key="people.orc_id">
-					<PeopleCard :people="people" />
+			<div style="display:flex;column-gap:24px;padding-bottom:6rem">
+				<div v-for="filter in filterList" :key="filter">
+					<button class="filter-button link-text" :class="isFilterSelected(filter)?'filter-button-selected':''" v-on:click="onClickFilter(filter)">{{filter}}</button>
 				</div>
 			</div>
 
+			<div class="grid-container--2" style="column-gap:94px;row-gap:110px;">
+				<div v-for="people in filteredPeoples" :key="people.orc_id">
+					<PeopleCard :people="people" />
+				</div>
+			</div>
 		</div>
 
 		<div class="global-padding" style="background: rgba(234, 234, 234, 0.4);">
@@ -34,7 +37,7 @@ export default {
 	components : {PeopleCard},
 	data: function() {
 		return {
-			selected: ["All"],
+			selected_filters: ["All"],
 			peoples: [
 				{
 					firstName: "Marlon", 
@@ -44,7 +47,7 @@ export default {
 					description: "Marcus is a research software engineer with a particular interest in web development. He's been working on science gateway projects, off and on, for almost two decades. He loves the challenge of creating a user interface that is not only easy to use but that also allows researchers to be more effective with their research", 
 					position: "Director", 
 					orc_id: "0000-0052-6474-995X ", 
-					role: "Computer Scintists",
+					role: "Computer Scientst",
 					talkAbout: ["Web User Interfaces", "Python APIs", "Visualisation"]
 				},
 				{
@@ -55,7 +58,7 @@ export default {
 					description: "Marcus is a research software engineer with a particular interest in web development. He's been working on science gateway projects, off and on, for almost two decades. He loves the challenge of creating a user interface that is not only easy to use but that also allows researchers to be more effective with their research", 
 					position: "Director", 
 					orc_id: "0000-0052-6494-095X ", 
-					role: "Computer Scintists",
+					role: "Computer Scientst",
 					talkAbout: ["Web User Interfaces", "Python APIs", "Visualisation"]
 				},
 				{
@@ -77,7 +80,7 @@ export default {
 					description: "Marcus is a research software engineer with a particular interest in web development. He's been working on science gateway projects, off and on, for almost two decades. He loves the challenge of creating a user interface that is not only easy to use but that also allows researchers to be more effective with their research", 
 					position: "Director", 
 					orc_id: "0000-0052-6874-095X ", 
-					role: "Computer Scintists",
+					role: "Computer Scientst",
 					talkAbout: ["Web User Interfaces", "Python APIs", "Visualisation"]
 				},
 				{
@@ -101,7 +104,21 @@ export default {
 			return [... new Set(filter_list)];
 		},
 		filteredPeoples: function() {
-			return this.peoples;
+			if(this.selected_filters.includes("All"))
+				return this.peoples;
+			return this.peoples.filter(people => this.selected_filters.includes(people.role));
+		}
+	},
+	methods: {
+		isFilterSelected(filter) {
+			return this.selected_filters.includes(filter);
+		},
+		onClickFilter(filter) {
+			if(this.selected_filters.includes(filter)){
+				this.selected_filters = this.selected_filters.filter(item => item != filter);
+			}else{
+				this.selected_filters.push(filter);
+			}			
 		}
 	}
 }

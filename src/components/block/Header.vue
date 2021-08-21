@@ -4,7 +4,7 @@
     <div class="header-section-item pos-r f-s">
       
       <!-- CIRC logo starts -->
-      <div class="logo-block">
+      <div class="logo-block" onclick="location.href='./';" style="cursor: pointer;">
         <svg width="248" height="46" viewBox="0 0 248 46" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <rect width="248" height="46" fill="url(#pattern0)"/>
         <defs>
