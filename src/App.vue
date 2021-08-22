@@ -142,6 +142,8 @@ export default {
 .home-head-text::after {
   content: ' ';
   display:block;
+  font-weight: bold;
+  line-height: 140%;
   width: 50px;
   border: 5px solid #990000;
   border-radius:0px;

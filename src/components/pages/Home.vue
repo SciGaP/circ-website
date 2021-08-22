@@ -1,11 +1,11 @@
 <template>
   <div class='home_page link-text'>
     <div class='landing_sc'>
-      <div class='lsc_content'>
+      <div class='lsc_content' style="backgroud:#FAFAFA">
         <div class='heading'>
-          <p style="color:#333333">We'll handle <span class='crim-colo'>Tech,</span>
+          <p style="color:#333333"> <span class='crim-colo'>CyberInfrastructure</span>
           <br>
-          you handle <span class='crim-colo'>Research</span></p> 
+            to boost your <span class='crim-colo'>Research</span></p> 
         </div>
         <div class='desc'>
           <p>We take care of all your high performance computing <br>
@@ -39,10 +39,10 @@
         <div class="pos-r who-content">
           <div>
           <span class="home-head-text head-text">Who are we?</span>
-          <p>
-            We're a <b>diverse group</b> of induviduals ranging from <b>Computer scientists to Domain experts</b> who possess <b>Full-stack Scientific Cyberinfrastructure capabilities</b>. 
-            At our core, we care bout the impact and research work you do and we strive to support you in every way possible. We have <b>deployed numerous successfull Gateways</b> in various 
-            domains which has attracted funding from <b>NASA</b> and the <b>National Science Foundation (NSF).</b>
+          <p style="font-size:20px;line-height:170%">
+            We're a <span class='crim-colo'><b>diverse group</b></span> of induviduals ranging from <span class='crim-colo'><b>Computer scientists to Domain experts</b></span> who possess <span class='crim-colo'><b>Full-stack Scientific Cyberinfrastructure capabilities</b></span>. 
+            At our core, we care bout the impact and research work you do and we strive to support you in every way possible. We have <span class='crim-colo'><b>deployed numerous successfull Gateways</b></span> in various 
+            domains which has attracted funding from <span class='crim-colo'><b>NASA</b></span> and the <span class='crim-colo'><b>National Science Foundation (NSF).</b></span>
           </p>
           <button class="bor-rad hig-3r airvata-button link-text bg-crim-colo">Know more About us</button>
           </div>
@@ -66,7 +66,7 @@
             <div>
               <img src="~@/assets/NSF.png" alt="NSF">
             </div>
-            <div style="padding-top:40px;"><span style="font-size:32px; line-height:120%;"><b>National Sceience Foundation</b></span></div>
+            <div style="padding-top:40px;"><span style="font-size:32px; line-height:120%;"><b>National Science Foundation</b></span></div>
           </div>
           <div>
             <div>
@@ -464,6 +464,7 @@ export default {
   width: 50%;
   position: relative;
   padding-right: 4.514vw;
+  background-color: #FAFAFA;
 }
 
 .home_page .landing_sc .lsc_content .heading {
