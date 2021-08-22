@@ -14,7 +14,7 @@
 				<div style="margin-right:19%;padding-top:10.6%"><statCard title='Science Gateway' value="70+"/></div>
 			</div>
 		</div>
-		<div class="airavata-desc f-s pos-r global-padding">
+		<div id="introduction" class="airavata-desc f-s pos-r global-padding">
 			<div style="margin-right:10%;width:55%">
 				<div style="padding-bottom:2rem"><span class="home-head-text head-text link-text">Apache Airavata</span></div>
 				<p style="font-size:20px;line-height:160%;color:#45382B">Apache Airavata is a flexible middleware layer that enables you to compose, manage, execute, and monitor large scale applications and workflows on distributed computing resources. CIRC is the core group responsible for Apache Airavata and we provide full-stack expertise to custom build or retrofit Airavata into existing your research workflows.</p>
@@ -51,7 +51,7 @@
 				</svg>
 			</div>
 		</div>
-		<div class="capabiliy" style="background: #EDEBEB33;">
+		<div id="capabilities" class="capabiliy" style="background: #EDEBEB33;">
 			<div style="padding:5rem;padding-left:8rem">
 				<div style="padding-bottom:2rem"><span class="home-head-text head-text link-text">Capabilities</span></div>
 				<div class="grid-container-column" style="column-gap:4rem;text-align:center;padding-left:4rem;padding-right:10rem;text-align:center">
@@ -101,7 +101,7 @@
 			</div>
 		</div>
 
-		<div class="airavata-integration global-padding">
+		<div id="integration" class="airavata-integration global-padding">
 			<div>
 				<div style="padding-bottom:2rem"><span class="home-head-text head-text link-text">How will Airavata integrate with your project?</span></div>
 				<p style="font-size:20px;line-height:160%;color:#45382B;margin-bottom:6rem">Apache Airavata is fluid by Design. It can be customized to your existing research workflow. Its capabilities are defined at any given time by client requirements, current research trends and grand challenges envisioned by our collaborators. </p>
@@ -216,54 +216,55 @@
 					</div>
 					<div style="margin-top: -13.6rem;"><span style="font-size:40px;line-height:140%;font-weight:600;color:#000000;background-color:white;">Enabling <span class="crim-colo">Science</span>.</span></div>
 				</div>
-				
-				<div style="padding-bottom:2rem;margin-top:6rem"><span class="home-head-text head-text link-text">Hosting foundation</span></div>
-				<div class="f-s pos-r">
-					<div style="width:56%">
-						<p style="font-size:20px;line-height:160%;color:#45382B">The mission of the Apache Software Foundation (ASF) is to provide software for the public good. The ASF does this by providing services and support for many software project communities consisting of individuals who choose to participate in ASF activities.</p>
-						<div class="grid-container-airavata">
-							<div style="display:flex">
-								<svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path d="M30.3272 16C30.3272 24.5782 23.6327 31.5 15.4136 31.5C7.19448 31.5 0.5 24.5782 0.5 16C0.5 7.42183 7.19448 0.5 15.4136 0.5C23.6327 0.5 30.3272 7.42183 30.3272 16Z" fill="white" stroke="#990000"/>
-									<path transform="translate(8.5,10.5)" d="M4.77141 8.72001L1.71071 5.54287L0.668457 6.61715L4.77141 10.8762L13.5792 1.73334L12.5443 0.659058L4.77141 8.72001Z" fill="#990000"/>
-								</svg>
-								<span style="font-size:20px;line-height:160%;font-weight:600;padding-left:14px">Open Source</span>
-							</div>
-							<div style="display:flex">
-								<svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path d="M30.3272 16C30.3272 24.5782 23.6327 31.5 15.4136 31.5C7.19448 31.5 0.5 24.5782 0.5 16C0.5 7.42183 7.19448 0.5 15.4136 0.5C23.6327 0.5 30.3272 7.42183 30.3272 16Z" fill="white" stroke="#990000"/>
-									<path transform="translate(8.5,10.5)" d="M4.77141 8.72001L1.71071 5.54287L0.668457 6.61715L4.77141 10.8762L13.5792 1.73334L12.5443 0.659058L4.77141 8.72001Z" fill="#990000"/>
-								</svg>
-								<span style="font-size:20px;line-height:160%;font-weight:600;padding-left:14px">Diverse Contributors</span>
-							</div>
-							<div style="display:flex">
-								<svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path d="M30.3272 16C30.3272 24.5782 23.6327 31.5 15.4136 31.5C7.19448 31.5 0.5 24.5782 0.5 16C0.5 7.42183 7.19448 0.5 15.4136 0.5C23.6327 0.5 30.3272 7.42183 30.3272 16Z" fill="white" stroke="#990000"/>
-									<path transform="translate(8.5,10.5)" d="M4.77141 8.72001L1.71071 5.54287L0.668457 6.61715L4.77141 10.8762L13.5792 1.73334L12.5443 0.659058L4.77141 8.72001Z" fill="#990000"/>
-								</svg>
-								<span style="font-size:20px;line-height:160%;font-weight:600;padding-left:14px">350+ Projects</span>
-							</div>
-							<div style="display:flex">
-								<svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path d="M30.3272 16C30.3272 24.5782 23.6327 31.5 15.4136 31.5C7.19448 31.5 0.5 24.5782 0.5 16C0.5 7.42183 7.19448 0.5 15.4136 0.5C23.6327 0.5 30.3272 7.42183 30.3272 16Z" fill="white" stroke="#990000"/>
-									<path transform="translate(8.5,10.5)" d="M4.77141 8.72001L1.71071 5.54287L0.668457 6.61715L4.77141 10.8762L13.5792 1.73334L12.5443 0.659058L4.77141 8.72001Z" fill="#990000"/>
-								</svg>
-								<span style="font-size:20px;line-height:160%;font-weight:600;padding-left:14px">4.1 M+ Code commits</span>
+				<div id="learn-more">
+					<div style="padding-bottom:2rem;margin-top:6rem"><span class="home-head-text head-text link-text">Hosting foundation</span></div>
+					<div class="f-s pos-r">
+						<div style="width:56%">
+							<p style="font-size:20px;line-height:160%;color:#45382B">The mission of the Apache Software Foundation (ASF) is to provide software for the public good. The ASF does this by providing services and support for many software project communities consisting of individuals who choose to participate in ASF activities.</p>
+							<div class="grid-container-airavata">
+								<div style="display:flex">
+									<svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M30.3272 16C30.3272 24.5782 23.6327 31.5 15.4136 31.5C7.19448 31.5 0.5 24.5782 0.5 16C0.5 7.42183 7.19448 0.5 15.4136 0.5C23.6327 0.5 30.3272 7.42183 30.3272 16Z" fill="white" stroke="#990000"/>
+										<path transform="translate(8.5,10.5)" d="M4.77141 8.72001L1.71071 5.54287L0.668457 6.61715L4.77141 10.8762L13.5792 1.73334L12.5443 0.659058L4.77141 8.72001Z" fill="#990000"/>
+									</svg>
+									<span style="font-size:20px;line-height:160%;font-weight:600;padding-left:14px">Open Source</span>
+								</div>
+								<div style="display:flex">
+									<svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M30.3272 16C30.3272 24.5782 23.6327 31.5 15.4136 31.5C7.19448 31.5 0.5 24.5782 0.5 16C0.5 7.42183 7.19448 0.5 15.4136 0.5C23.6327 0.5 30.3272 7.42183 30.3272 16Z" fill="white" stroke="#990000"/>
+										<path transform="translate(8.5,10.5)" d="M4.77141 8.72001L1.71071 5.54287L0.668457 6.61715L4.77141 10.8762L13.5792 1.73334L12.5443 0.659058L4.77141 8.72001Z" fill="#990000"/>
+									</svg>
+									<span style="font-size:20px;line-height:160%;font-weight:600;padding-left:14px">Diverse Contributors</span>
+								</div>
+								<div style="display:flex">
+									<svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M30.3272 16C30.3272 24.5782 23.6327 31.5 15.4136 31.5C7.19448 31.5 0.5 24.5782 0.5 16C0.5 7.42183 7.19448 0.5 15.4136 0.5C23.6327 0.5 30.3272 7.42183 30.3272 16Z" fill="white" stroke="#990000"/>
+										<path transform="translate(8.5,10.5)" d="M4.77141 8.72001L1.71071 5.54287L0.668457 6.61715L4.77141 10.8762L13.5792 1.73334L12.5443 0.659058L4.77141 8.72001Z" fill="#990000"/>
+									</svg>
+									<span style="font-size:20px;line-height:160%;font-weight:600;padding-left:14px">350+ Projects</span>
+								</div>
+								<div style="display:flex">
+									<svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M30.3272 16C30.3272 24.5782 23.6327 31.5 15.4136 31.5C7.19448 31.5 0.5 24.5782 0.5 16C0.5 7.42183 7.19448 0.5 15.4136 0.5C23.6327 0.5 30.3272 7.42183 30.3272 16Z" fill="white" stroke="#990000"/>
+										<path transform="translate(8.5,10.5)" d="M4.77141 8.72001L1.71071 5.54287L0.668457 6.61715L4.77141 10.8762L13.5792 1.73334L12.5443 0.659058L4.77141 8.72001Z" fill="#990000"/>
+									</svg>
+									<span style="font-size:20px;line-height:160%;font-weight:600;padding-left:14px">4.1 M+ Code commits</span>
+								</div>
 							</div>
 						</div>
+						<div class="block" style="right:0;padding-right:15px;margin-top:-50px">
+							<img src="@/assets/Apache_logo.png" alt="">
+						</div>
 					</div>
-					<div class="block" style="right:0;padding-right:15px;margin-top:-50px">
-						<img src="@/assets/Apache_logo.png" alt="">
-					</div>
-				</div>
 
-				<div style="padding-bottom:2rem"><span class="home-head-text head-text link-text">We run Airavata as a Service through SciGaP </span></div>
-				<div class="f-s pos-r">
-					<div style="width:56%">
-						<p style="font-size:20px;line-height:160%;color:#45382B"> Science Gateways are easy to build but hard to sustain. Key developers come and go. Scaling up to support growing user communities and more demanding usage takes a lot of work. Things go wrong at the worst times. SciGaP's goal is to help gateways address these problems. <a href="">SciGaP</a>  is powered by <b>Apache Airavata.</b></p>
-					</div>
-					<div class="block" style="right:0;padding-right:15px;">
-						<img src="@/assets/SciGap_logo.png" alt="SciGap">
+					<div style="padding-bottom:2rem"><span class="home-head-text head-text link-text">We run Airavata as a Service through SciGaP </span></div>
+					<div class="f-s pos-r">
+						<div style="width:56%">
+							<p style="font-size:20px;line-height:160%;color:#45382B"> Science Gateways are easy to build but hard to sustain. Key developers come and go. Scaling up to support growing user communities and more demanding usage takes a lot of work. Things go wrong at the worst times. SciGaP's goal is to help gateways address these problems. <a href="">SciGaP</a>  is powered by <b>Apache Airavata.</b></p>
+						</div>
+						<div class="block" style="right:0;padding-right:15px;">
+							<img src="@/assets/SciGap_logo.png" alt="SciGap">
+						</div>
 					</div>
 				</div>
 			</div>
