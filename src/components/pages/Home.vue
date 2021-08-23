@@ -1,7 +1,7 @@
 <template>
   <div class='home_page link-text'>
-    <div class='landing_sc'>
-      <div class='lsc_content' style="backgroud:#FAFAFA">
+    <div class='landing_sc' style="backgroud:#FFFFFF">
+      <div class='lsc_content' >
         <div class='heading'>
           <p style="color:#333333"> <span class='crim-colo'>CyberInfrastructure</span>
           <br>
