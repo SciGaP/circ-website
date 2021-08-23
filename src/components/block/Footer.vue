@@ -73,7 +73,7 @@ export default {
         {name:'Services', link: './services'},
         {name:'Publications', link: './projects#publications'},
         {name:'Projects', link: './projects'},
-        {name:'The Team', link: './team'},
+        {name:'The Team', link: './teams'},
       ],
       airavataLinks: [
         {name:'Introduction', link: './airavata#introduction'},
