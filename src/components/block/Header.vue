@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Header -->
-    <div class="header-section-item pos-r f-s">
+    <div class="header-section-item pos-r f-s grid-container-column" style="column-gap:13rem">
       
       <!-- CIRC logo starts -->
       <div class="logo-block" onclick="location.href='./';" style="cursor: pointer;">
@@ -18,7 +18,7 @@
       <!-- CIRC logo ends  -->
 
       <!-- CIRC Nav Block -->
-      <div class="nav-block f-s block">
+      <div class="nav-block f-s">
         <nav class='main-nav'>
           <ul class='main-nav-ul pos-r' role="menubar">
             <li class='main-nav-li nav-li pos-r'>

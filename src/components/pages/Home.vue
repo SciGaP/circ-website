@@ -1,7 +1,7 @@
 <template>
   <div class='home_page link-text'>
-    <div class='landing_sc' style="backgroud:#FFFFFF">
-      <div class='lsc_content' >
+    <div class='landing_sc global-padding' style="backgroud:#FFFFFF">
+      <div class='lsc_content'>
         <div class='heading'>
           <p style="color:#333333"> <span class='crim-colo'>CyberInfrastructure</span>
           <br>
@@ -403,9 +403,6 @@ export default {
   flex-direction: row;
   position: relative;
   display: flex;
-  padding-left: 8.3334vw;
-  padding-right: 8.3334vw;
-  margin-top: 65px;
   height: 500px;
   padding-bottom: 180px;
 }
@@ -447,13 +444,6 @@ export default {
   opacity: 0.1;
 }
 
-.airvata-button {
-  color: white;
-  font-size: 20px;
-  padding: 16px 36px;
-  font-weight: 600;
-}
-
 .bor-rad {
   border-radius: 5px;
   border: 0.5px solid #A0A0A0;
@@ -464,7 +454,7 @@ export default {
   width: 50%;
   position: relative;
   padding-right: 4.514vw;
-  background-color: #FAFAFA;
+  background-color: #FFFFFF;
 }
 
 .home_page .landing_sc .lsc_content .heading {
@@ -517,6 +507,7 @@ export default {
   width: 50%;
   height: inherit;
   position: relative;
+  background: #FFFFFF;
 }
 
 .home_page .lsc_image .rectangle {

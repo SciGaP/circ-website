@@ -1,6 +1,6 @@
 <template>
-  <div class="circ-footer">
-    <div class="main-footer">
+  <div id="circ-footer" class="circ-footer global-padding" style="padding-top: 3.75rem;">
+    <div class="main-footer grid-container-column" style="column-gap: 6.5rem;">
       <div class="circ-logo">
         <svg width="248" height="46" viewBox="0 0 248 46" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <rect width="248" height="46" fill="url(#pattern0)"/>
@@ -114,7 +114,6 @@ export default {
 
 .circ-footer .main-footer {
   display: flex;
-  flex-direction: row;
   align-items: flex-start;
 
   font-family: Source Sans Pro;
@@ -126,31 +125,11 @@ export default {
   color: #0A142F;
 }
 
-.circ-footer .main-footer .sitemap {
-  position: relative;
-  top: 60px;
-  padding-left: 9.72223vw;
-}
-
-.circ-footer .main-footer .airavata {
-  position: relative;
-  top: 60px;
-  padding-left: 7.431vw;
-}
-
-.circ-footer .main-footer .contact-us {
-  position: relative;
-  top: 60px;
-  padding-left: 4.931vw;
-}
 
 .circ-footer .main-footer .circ-logo{
-  position: relative;
   width: 248px;
   height: 46px;
-  left: 0px;
-  padding-left: 7.7778vw;
-  top: 134px;
+  padding-top: 4rem;
 }
 
 .circ-footer .fireshot {
@@ -169,11 +148,9 @@ export default {
 }
 
 .up-arrow {
-  position: relative;
   width: 52px;
   height: 52px;
-  padding-left: 5.62vw;
-  top: 130px;
+  padding-top: 4rem;
   align-content: center;
 }
 

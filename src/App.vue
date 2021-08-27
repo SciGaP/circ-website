@@ -4,6 +4,7 @@
     <div class="router" id="nav">
       <router-view/>
     </div>
+    <button id="btn-float" class="float-btn airvata-button link-text bg-crim-colo">Get in touch</button>
     <Footer/>
   </div>
 </template>
@@ -14,7 +15,27 @@ import Footer from './components/block/Footer';
 
 export default {
   name: 'App',
-  components: {Header, Footer}
+  components: {Header, Footer},
+  created () {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  destroyed () {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+  methods: {
+    handleScroll: function(e) {
+      console.log(e.target.documentElement.scrollTop);
+      if($('#btn-float').offset().top + $('#btn-float').height() 
+                                           >= $('#circ-footer').offset().top - 10)
+        $('#btn-float').css('position', 'absolute');
+    if($(document).scrollTop() + window.innerHeight < $('#circ-footer').offset().top)
+        $('#btn-float').css('position', 'fixed');
+        console.log($(document).scrollTop() + window.innerHeight);
+    },
+    btnFixed() {
+      
+    }
+  }
 }
 </script>
 
@@ -24,10 +45,16 @@ export default {
   /* -moz-osx-font-smoothing: grayscale; */
   /* color: #2c3e50; */
   overflow:hidden; 
+  max-width: 1440px !important;
 }
+
 .wid-100 {
   width: 100%;
   box-sizing:border-box;
+}
+
+.router {
+  max-width: 1440px !important;
 }
 
 .hig-100-vh {
@@ -177,6 +204,23 @@ export default {
 
 .bgcl-in {
   background-color: inherit;
+}
+
+.airvata-button {
+  color: white;
+  font-size: 20px;
+  padding: 16px 36px;
+  font-weight: 600;
+}
+
+.float-btn {
+  padding: 17px 79px;
+  border-radius: 5px 5px 0px 0px;
+  border: .5px solid #a0a0a0;
+  z-index: 10;
+  bottom:0;
+  left: 50%;
+  position:sticky;
 }
 
 </style>
