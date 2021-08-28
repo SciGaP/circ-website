@@ -1,7 +1,7 @@
 <template>
     <div class="link-text">
         <div class="f-s pos-r global-padding">
-            <div style="width:50%">
+            <div style="width:50%; padding-top: 40px;">
                 <div>
                     <span style="font-size:56px;line-height:120%">
                     <b>
@@ -103,7 +103,7 @@ export default {
     data: function(){
         return {
             test:0,
-            selected_filters:[],
+            selected_filters: [],
             projectsList:[
                 {
                     name:"Electron microscopy Center",

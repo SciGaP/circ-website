@@ -5,6 +5,7 @@
       <router-view/>
     </div>
     <button id="btn-float" class="float-btn airvata-button link-text bg-crim-colo">Get in touch</button>
+    <contactCard />
     <Footer/>
   </div>
 </template>
@@ -12,10 +13,11 @@
 <script>
 import Header from './components/block/Header';
 import Footer from './components/block/Footer';
+import contactCard from './components/overlay/contactCard';
 
 export default {
   name: 'App',
-  components: {Header, Footer},
+  components: {Header, Footer, contactCard},
   created () {
     window.addEventListener('scroll', this.handleScroll);
   },
@@ -24,13 +26,8 @@ export default {
   },
   methods: {
     handleScroll: function(e) {
-      console.log(e.target.documentElement.scrollTop);
-      if($('#btn-float').offset().top + $('#btn-float').height() 
-                                           >= $('#circ-footer').offset().top - 10)
-        $('#btn-float').css('position', 'absolute');
-    if($(document).scrollTop() + window.innerHeight < $('#circ-footer').offset().top)
-        $('#btn-float').css('position', 'fixed');
-        console.log($(document).scrollTop() + window.innerHeight);
+      console.log(" scrollTop: "+e.target.documentElement.scrollTop+
+                  " scrollHeight: "+e.target.documentElement.scrollHeight);
     },
     btnFixed() {
       
@@ -217,10 +214,9 @@ export default {
   padding: 17px 79px;
   border-radius: 5px 5px 0px 0px;
   border: .5px solid #a0a0a0;
-  z-index: 10;
   bottom:0;
-  left: 50%;
-  position:sticky;
+  left: 70%;
+  position: fixed;
 }
 
 </style>

@@ -1,4 +1,5 @@
 <template>
+  <div>
   <div id="circ-footer" class="circ-footer global-padding" style="padding-top: 3.75rem;">
     <div class="main-footer grid-container-column" style="column-gap: 6.5rem;">
       <div class="circ-logo">
@@ -60,6 +61,7 @@
     </div>
     <!-- bottom of the footer -->
     <div class="fireshot"></div>
+  </div>
   </div>
 </template>
 
