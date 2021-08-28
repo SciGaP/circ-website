@@ -1,6 +1,6 @@
 <template>
   <div>
-  <div id="circ-footer" class="circ-footer global-padding" style="padding-top: 3.75rem;">
+  <div id="circ-footer" class="circ-footer global-padding" style="padding-top: 3.75rem;height:max-content">
     <div class="main-footer grid-container-column" style="column-gap: 6.5rem;">
       <div class="circ-logo">
         <svg width="248" height="46" viewBox="0 0 248 46" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">

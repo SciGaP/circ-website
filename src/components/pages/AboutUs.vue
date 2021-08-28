@@ -321,7 +321,7 @@ export default {
 	position: absolute;
 	width: 3px;
 	top: 0;
-  bottom: 0;
+    bottom: 0;
 	left: 2.34%;
 	background: #EDEBEB;
 }
