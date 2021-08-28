@@ -158,7 +158,7 @@ export default {
   bottom: 0;
 }
 
-.circ-footer .fireshot {
+.fireshot {
   width: 100%;
   box-sizing: border-box;
   background-color: #FFFFFF;
