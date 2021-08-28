@@ -59,8 +59,15 @@
         </span>
       </div>
     </div>
-    <!-- bottom of the footer -->
-    <div class="fireshot"></div>
+  </div>
+  <!-- bottom of the footer -->
+  <div class="fireshot f-s pos-r">
+    <div class="pos-r" style="padding-top:2rem;padding-bottom:2rem;padding-left:12rem;">
+      <img class="footer_img" src="@/assets/Indiana_footer_logo.png" alt="">
+    </div>
+    <div class="pos-r link-text" style="font-size:16px;line-height:20px;margin-left: 20rem;">
+      <span class="crim-colo">Accessibility | Privacy Notice | Copyright <span style="color:#333333"> &copy; 2021 The Trustees of </span> Indiana University</span>
+    </div>
   </div>
   </div>
 </template>
@@ -127,22 +134,35 @@ export default {
   color: #0A142F;
 }
 
-
 .circ-footer .main-footer .circ-logo{
   width: 248px;
   height: 46px;
   padding-top: 4rem;
 }
 
-.circ-footer .fireshot {
+.fireshot::before {
+  content: ' ';
+  width: 100%;
+  height: 5px;
+  background-color: #990000;
   position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 74.82%;
-  bottom: 0%;
-  width: 100vw;
+  top: 0;
+}
 
-  background: url('~@/assets/footer.png');
+.fireshot::after {
+  content: ' ';
+  width: 100%;
+  height: 5px;
+  background-color: #990000;
+  position: absolute;
+  bottom: 0;
+}
+
+.circ-footer .fireshot {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  align-items: center;
 }
 
 .contents {
@@ -198,6 +218,11 @@ li {
 
 span {
   cursor: pointer;
+}
+
+.footer_img {
+  width: 250px;
+  height: 50px;
 }
 
 </style>

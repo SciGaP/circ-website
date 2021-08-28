@@ -4,8 +4,8 @@
     <div class="router" id="nav">
       <router-view/>
     </div>
-    <button id="btn-float" class="float-btn airvata-button link-text bg-crim-colo">Get in touch</button>
-    <contactCard />
+    <!-- <button id="btn-float" class="float-btn airvata-button link-text bg-crim-colo">Get in touch</button> -->
+    <!-- <contactCard /> -->
     <Footer/>
   </div>
 </template>
