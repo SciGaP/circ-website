@@ -169,7 +169,7 @@
 								<div style="padding-left:18px;padding-right:18px;padding-bottom:18px;padding-top:29px">
 									<span class="crim-colo" style="font-size:28px;ine-height:120%;font-weight:600;">Apache Airavata</span>
 									<div style="padding-top:21%;margin-left:-4%">
-										<img width="115" height="116" src="@/assets/Airavata_logo.png" alt="Airavata logo">
+										<img style="width:115px;height:116px" src="@/assets/Airavata_logo.png" alt="Airavata logo">
 									</div>
 									<p style="font-size:20px;line-height:32px;font-weight:400;color:#333333">We’ll use Airavata as a skeleton to build your Gateway</p>
 								</div>
