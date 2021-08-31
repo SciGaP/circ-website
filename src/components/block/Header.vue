@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Header -->
-    <div class="header-section-item pos-r f-s grid-container-column" style="column-gap:13rem">
+    <div class="header-section-item pos-r f-s grid-container-column global-padding" style="column-gap:1rem;padding-top:1rem;padding-bottom:1rem;align-items:center">
       
       <!-- CIRC logo starts -->
       <div class="logo-block" onclick="location.href='./';" style="cursor: pointer;">
@@ -55,7 +55,7 @@
 
     </div>
     <!-- Mega_menu -->
-    <div class="mega-menu-section block" :class="this.menu_active?'active':''">
+    <div class="mega-menu-section global-padding block" :class="this.menu_active?'active':''">
       <nav class='f-s'>
         <li class='flyout-panel pos-r f-s link-text'>
           <div class="grid-container-column" style="column-gap: 1rem;">
@@ -197,7 +197,7 @@ export default {
 }
 
 .flyout-panel-section {
-  margin: 0px 45px 0px 0px;
+  margin: 0px 4vw 0px 0px;
   padding: 0px 0px 0px 20px;
 }
 
@@ -212,7 +212,7 @@ export default {
 }
 
 .flyout-panel-section-pos--1 {
-  margin-left: -40px;
+  padding-left: 0px;
 }
 
 .footer-link-text {
@@ -247,17 +247,11 @@ export default {
 }
 
 .mega-menu-section {
-  width: calc(100vw - 2*8.334vw);
+  width: 100%;
   height: auto;
-
   background: #F7F7F7;
   box-shadow: 0px 4px 20px rgba(51, 51, 51, 0.12);
-
-  padding: 1.74vw 8.334vw;
-  margin-left: -8px;
-
   z-index: 10;
-
   display: none;
 }
 
@@ -274,7 +268,7 @@ export default {
 }
 
 .nav-block {
-  right: 8.334vw
+  /* right: 8.334vw */
 }
 
 .main-nav-li {
@@ -297,8 +291,8 @@ export default {
 .logo-block {
   width: 248px;
   height: 46px;
-  margin-left: 8.334vw;
-  top: 9px;
+  /* margin-left: 8.334vw; */
+  /* top: 9px; */
 }
 
 .down-vector {

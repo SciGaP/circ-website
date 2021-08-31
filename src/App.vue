@@ -42,7 +42,7 @@ export default {
   /* -moz-osx-font-smoothing: grayscale; */
   /* color: #2c3e50; */
   overflow:hidden; 
-  max-width: 1440px !important;
+  /* max-width: 1440px !important; */
 }
 
 .wid-100 {
@@ -51,7 +51,7 @@ export default {
 }
 
 .router {
-  max-width: 1440px !important;
+  /* max-width: 1440px !important; */
 }
 
 .hig-100-vh {
@@ -217,6 +217,10 @@ export default {
   bottom:0;
   left: 70%;
   position: fixed;
+}
+
+img{
+  width: 100%;
 }
 
 </style>

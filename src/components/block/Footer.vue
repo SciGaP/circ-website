@@ -1,7 +1,7 @@
 <template>
   <div>
   <div id="circ-footer" class="circ-footer global-padding" style="padding-top: 3.75rem;height:max-content">
-    <div class="main-footer grid-container-column" style="column-gap: 6.5rem;">
+    <div class="main-footer grid-container-column" style="column-gap: calc(0.1*100vw);">
       <div class="circ-logo">
         <svg width="248" height="46" viewBox="0 0 248 46" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <rect width="248" height="46" fill="url(#pattern0)"/>
@@ -62,11 +62,9 @@
   </div>
   <!-- bottom of the footer -->
   <div class="fireshot f-s pos-r">
-    <div class="pos-r" style="padding-top:2rem;padding-bottom:2rem;padding-left:12rem;">
-      <img class="footer_img" src="@/assets/Indiana_footer_logo.png" alt="">
-    </div>
-    <div class="pos-r link-text" style="font-size:16px;line-height:20px;margin-left: 20rem;">
-      <span class="crim-colo">Accessibility | Privacy Notice | Copyright <span style="color:#333333"> &copy; 2021 The Trustees of </span> Indiana University</span>
+    <div class="grid-container-column" style="padding: 2rem 12rem; padding-right: 4rem;align-items:center;column-gap: calc(100vw - 542px - 250px - 43rem)">
+      <div><img class="footer_img" src="@/assets/Indiana_footer_logo.png" alt=""></div>
+      <div class="link-text" style="font-size:16px;line-height:20px;"><span class="crim-colo">Accessibility | Privacy Notice | Copyright <span style="color:#333333"> &copy; 2021 The Trustees of </span> Indiana University</span></div>
     </div>
   </div>
   </div>

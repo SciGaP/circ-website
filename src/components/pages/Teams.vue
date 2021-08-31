@@ -1,6 +1,6 @@
 <template>
 	<div class=link-text>
-		<div class="">
+		<div>
 			<img src="@/assets/Teams_logo.png" alt="">
 		</div>
 
@@ -16,7 +16,7 @@
 				</div>
 			</div>
 
-			<div class="grid-container--2" style="column-gap:94px;row-gap:110px;">
+			<div class="grid-container--2" style="column-gap: calc(100% - 552px - 552px - 7.5rem);row-gap:6rem;">
 				<div v-for="people in filteredPeoples" :key="people.orc_id">
 					<PeopleCard :people="people" />
 				</div>

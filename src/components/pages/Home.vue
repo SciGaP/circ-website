@@ -47,49 +47,51 @@
           <button class="bor-rad hig-3r airvata-button link-text bg-crim-colo">Know more About us</button>
           </div>
         </div>
-        <div class="single-stat-card pos-r pad-right-8 hig-100-vh ">
+        <div class="single-stat-card block">
           <statCard title='Science Gateway' value="70+"/>
         </div>
-        <div class="pos-r two-cards">
-          <div style="margin-top:-2rem"><statCard title='Science Gateway' value="70+"/></div>
-          <div style="margin-top:16rem"><statCard title='Science Gateway' value="70+"/></div>
+        <div class="block" style="right:335px">
+          <div class="pos-r">
+            <div style="margin-top:-2rem"><statCard title='Science Gateway' value="70+"/></div>
+            <div style="margin-top:16rem"><statCard title='Science Gateway' value="70+"/></div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="supported_by f-s pos-r">
-      <div class="pos-r"><span class="chem-bond z-idx--1 op-10"></span></div>
-      <div class="pos-r" style="margin-left:-4rem; padding-bottom:4rem;">
+    <div class="supported_by global-padding">
+      <div class="block" style="left:0"><span class="chem-bond z-idx--1 op-10"></span></div>
+      <div>
         <span class="home-head-text head-text link-text">We're supported by</span>
         <p style="line-height:160%; font-size:20px;">Most of the work we do is <b>backed</b> by the most <b>reputed scientific communities</b> in the country. <b>They trust us, so can you.</b></p>
         <div class="grid-container-column support--1 link-text">
-          <div>
-            <div>
+          <div class="support-content">
+            <div class="support-img">
               <img src="~@/assets/NSF.png" alt="NSF">
             </div>
             <div style="padding-top:40px;"><span style="font-size:32px; line-height:120%;"><b>National Science Foundation</b></span></div>
           </div>
-          <div>
-            <div>
+          <div class="support-content">
+            <div class="support-img">
               <img src="~@/assets/NASA.png" alt="NASA">
             </div>
             <div style="padding-top:40px;"><span style="font-size:32px; line-height:120%;"><b>NASA</b></span></div>
           </div>
-          <div>
-            <div>
+          <div class="support-content">
+            <div class="support-img">
               <img src="~@/assets/DOE.png" alt="DOE">
             </div>
             <div style="padding-top:40px;"><span style="font-size:32px; line-height:120%;"><b>Department of Energy</b></span></div>
           </div>
         </div>
         <div class="grid-container-column support--2 link-text">
-          <div>
-            <div>
+          <div class="support-content">
+            <div class="support-img">
               <img src="~@/assets/USDA.png" alt="USDA">
             </div>
             <div style="padding-top:40px;"><span style="font-size:32px; line-height:120%;"><b>U.S. Department of Agriculture</b></span></div>
           </div>
-          <div>
-            <div>
+          <div class="support-content">
+            <div class="support-img">
               <img src="~@/assets/NIH.png" alt="USDA">
             </div>
             <div style="padding-top:40px;bottom:0;"><span style="font-size:32px; line-height:120%;"><b>National Institute of Health</b></span></div>
@@ -99,23 +101,29 @@
           <span class="home-head-text head-text lin-text">We're proud collaborators of</span>
           <p style="line-height:160%; font-size:20px">Our collaboration with <b>XSEDE</b> and <b>SciGaP</b> lets us complement each other's strengths to produce <b>first-grade</b> Science Gateways.</p>
           <div class="grid-container-column collbortors--1 link-text">
-          <div class="item-coll--1">
-            <span style="font-size:32px; line-height: 120%; font-weight:bold; text-align:center;"><br/>SGCI</span>
+            <div class="coll-content">
+              <div class="coll-img">
+                <img src="~@/assets/SGCI.png" alt="SGCI_LOGO">
+              </div>
+              <div><span style="font-size:32px; line-height: 120%; font-weight:bold; text-align:center;"><br/>SGCI</span></div>
+            </div>
+            <div class="coll-content">
+              <div class="coll-img">
+                <img src="~@/assets/XSEDE.png" alt="XSEDE_LOGO">
+              </div>
+              <div><span style="font-size:32px; line-height: 120%; font-weight:bold; text-align:center;"><br/>XSEDE</span></div>
+            </div>
           </div>
-          <div class="item-coll--2">
-            <span style="font-size:32px; line-height: 120%; font-weight:bold; text-align:center;"><br/>XSEDE</span>
-          </div>
-        </div>
         </div>
       </div>
       <div style="padding-botton:2rem"></div>
     </div>
-    <div class="domains f-s pos-r">
-      <div class="flask--1 pos-r"></div>
+    <div class="domains f-s pos-r global-padding">
+      <div class="flask--1 block"></div>
       <div class="pos-r domain--content">
         <span class="home-head-text head-text link-text">What domains do we operate in?</span>
         <p style="line-height:160%; font-size:20px;">We can help you with your computational resources in any domain. We've got domian experts who can help develop a deeper understanding of the problem.</p>
-        <div class="grid-container">
+        <div class="grid-container" style="column-gap:calc((1/3)*(100vw - 15rem - 3*390px))">
           <div>
             <div class="domain-image">
               <img src="@/assets/Domain_BS.png" alt="Biological Sciences">
@@ -193,9 +201,9 @@
       <div class="flask--2 pos-r"></div>
     </div>
     <div class="team">
-      <div class="team-content">
+      <div class="team-content global-padding">
         <div style="padding-bottom:2rem"><span class="home-head-text head-text link-text">Our High-Calibre team</span></div>
-        <div class="grid-container-column team-cards" style="text-align:center">
+        <div class="grid-container team-cards" style="text-align:center;column-gap:calc((1/3)*(100vw - 15rem - 3*345px))">
           <div>
             <teamCard 
               firstName="Marlon" 
@@ -225,21 +233,21 @@
           </div>
         </div>
         <div style="padding-bottom:3rem"><span class="home-head-text head-text link-text">We take pride in our highly impactful work</span></div>
-        <div class="grid-container-column" style="text-align:center">
-          <div>
-            <div>
+        <div class="grid-container" style="text-align:center;column-gap:calc((1/3)*(100vw - 15rem - 3*340px))">
+          <div class="work-content">
+            <div class="work-img">
               <img src="~@/assets/DREG.png" alt="DREG">
             </div>
             <div style="padding-top:40px;"><span style="font-size:32px; line-height:120%;"><b>dREG</b></span></div>
           </div>
-          <div>
-            <div>
+          <div class="work-content">
+            <div class="work-img">
               <img src="~@/assets/SEAGRID.png" alt="SEAGRID">
             </div>
             <div style="padding-top:40px;"><span style="font-size:32px; line-height:120%;"><b>SEAGRID</b></span></div>
           </div>
-          <div>
-            <div>
+          <div class="work-content">
+            <div class="work-img">
               <img src="~@/assets/SSRA.png" alt="DREG">
             </div>
             <div style="padding-top:40px;"><span style="font-size:32px; line-height:120%;"><b>Searching SRA</b></span></div>
@@ -247,21 +255,21 @@
         </div>
         <div style="text-align:center;padding-top:82px"><button class="bor-rad hig-3r airvata-button link-text bg-crim-colo">View a list of all our Gateways</button></div>
         <div style="padding-top:6rem;padding-bottom:3rem;"><span class="home-head-text head-text link-text">Organizations we've worked with</span></div>
-        <div class="grid-container-column" style="text-align:center">
-          <div>
-            <div>
+        <div class="grid-container" style="text-align:center;column-gap:calc((1/3)*(100vw - 15rem - 3*260px))">
+          <div class="org-content">
+            <div class="org-img">
               <img src="~@/assets/USD.png" alt="USD">
             </div>
             <div style="padding-top:40px;"><span style="font-size:32px; line-height:120%;"><b>University of South Dakota</b></span></div>
           </div>
-          <div>
-            <div>
+          <div class="org-content">
+            <div class="org-img">
               <img src="~@/assets/UAB.png" alt="UAB">
             </div>
             <div style="padding-top:40px;"><span style="font-size:32px; line-height:120%;"><b>University of Alabama at Birmingham</b></span></div>
           </div>
-          <div>
-            <div>
+          <div class="org-content">
+            <div class="org-img">
               <img src="~@/assets/Georgia_Tech.png" alt="GT">
             </div>
             <div style="padding-top:40px;"><span style="font-size:32px; line-height:120%;"><b>Georiga Tech</b></span></div>
@@ -348,10 +356,6 @@ export default {
 
 <style scoped>
 
-.two-cards {
-  right: 8.334vh;
-}
-
 .reviews {
   padding-bottom: 3rem;
   padding-top: 3rem;
@@ -359,16 +363,18 @@ export default {
 }
 
 .domain-image {
+  width: 390px;
+  height: 240px;
   border-radius: 5px;
   padding-bottom: 20px;
 }
 
 .domain--content {
-  padding: 7.5rem;
+  /* padding: 7.5rem; */
 }
 
 .team-content {
-  padding: 7.5rem;
+  /* padding: 7.5rem; */
 }
 
 .team-cards {
@@ -407,37 +413,24 @@ export default {
   padding-bottom: 180px;
 }
 
-.item-coll--1::before {
-  content: url('~@/assets/SGCI.png');
-  vertical-align: bottom;
-}
-
-.item-coll--2::before {
-  content: url('~@/assets/XSEDE.png');
-  vertical-align: bottom;
-}
-
-.item-coll--1 {
-  margin-top: 4rem;
-}
-
 .support--1 {
   margin: 3rem;
   text-align: center;
 }
 
 .support--2 {
-  margin: 6rem;
+  margin: 6rem 20rem;
   text-align: center;
 }
 
 .collbortors--1 {
-  margin: 3rem;
+  margin: 4rem;
   text-align: center;
 }
 
 .single-stat-card {
   padding-top: 11rem;
+  right: 600px;
 }
 
 .op-10 {
@@ -535,8 +528,6 @@ export default {
 
 .domains {
   background: #EDEBEB80;
-  padding-top: 3rem;
-  padding-bottom: 4rem;
 }
 
 .atom-structure::after {
@@ -560,5 +551,46 @@ export default {
   opacity: 0.1;
   z-index: -3;
 }
+
+.support-img {
+  width: 200px;
+  height: 200px;
+  margin-left: 30px;
+}
+
+.support-content {
+  width: 260px;
+}
+
+.coll-content {
+  width: 500px;
+}
+
+.coll-img {
+  width: 460px;
+  height: 150px;
+  margin-left: 20px; 
+}
+
+.org-content {
+  width: 260px;
+}
+
+.org-img {
+  width: 240px;
+  height: 150px;
+  margin-left: 10px;
+}
+
+.work-content {
+  width: 340px;
+}
+
+.work-img {
+  width: 300px;
+  height: 100px;
+  margin-left: 20px;
+}
+
 
 </style>

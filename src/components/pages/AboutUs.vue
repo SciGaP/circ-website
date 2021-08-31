@@ -197,10 +197,10 @@
 					</defs>
 				</svg>
 			</div>
-			<div style="margin-left: -250px;">
-				<div style="text-align:center;margin-top:120px;padding-left: 11%;">
+			<div style="margin-left: calc(0.5*(100vw - 489px - 876px - 438px));">
+				<div style="text-align:center;margin-top:calc(100vw*(120/1440));padding-left: 4%; margin-bottom: calc(100vw*(60/1440));">
 					<span style="font-size:24px;line-height:140%;color:#333333">What makes us different?</span><br/>
-					<span style="font-size:44px;line-height:140%;font-weight:900;color:#333333;padding-top:4px;padding-bottom:60px">One Team, <br/> Multiple Expertise.</span>
+					<span style="font-size:44px;line-height:140%;font-weight:900;color:#333333;padding-top:4px;padding-bottom:10px">One Team, <br/> Multiple Expertise.</span>
 				</div>
 				<div class="f-s pos-r" style="margin-top:60px">
 					<!-- svg -- 2 --> 
@@ -269,7 +269,7 @@
 				</div>
 			</div>
 			<!-- svg -- 4  21 17-->
-			<div style="margin-left:-120px">
+			<div style="margin-left: calc((0.5)*(100vw - 489px - 876px - 438px))">
 				<svg width="438" height="506" viewBox="0 0 438 506" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<g filter="url(#filter4_d)">
 						<mask id="path-14-inside-14" fill="white">

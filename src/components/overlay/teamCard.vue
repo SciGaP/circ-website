@@ -1,7 +1,7 @@
 <template>
   <div class="team-card bg-color-white link-text">
     <div style="padding: 70px 30px 20px 30px">
-      <img :src="require(`@/assets/${imageLink}`)" :alt="firstName[0].toUpperCase()+''+lastName[0].toUpperCase()">
+      <img style="width:180px" :src="require(`@/assets/${imageLink}`)" :alt="firstName[0].toUpperCase()+''+lastName[0].toUpperCase()">
       <br/>
       <span style="font-size:36px;line-height:120%;"><b><span class="crim-colo">{{firstName}}</span> <span>{{lastName}}</span></b></span>
       <br/>
