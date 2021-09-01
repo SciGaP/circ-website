@@ -5,14 +5,14 @@
 				<span style="font-size:48px;line-height:140%;font-weight:600">APACHE <span class="crim-colo">AIRAVATA</span></span><br/>
 				<span style="font-size:24px;line-height:30px">#1 in Sceience Gateways</span>
 			</div>
-			<div class="f-s pos-r">
-				<div style="margin-left:19%;padding-right:10.5%;padding-top:10.6%"><statCard title='Science Gateway' value="70+"/></div>
-				<div style="padding-right:11.2%;padding-top:2.5%;">
+			<div>
+				<div style="position:absolute;left:19%;margin-top:13%"><statCard title='Science Gateway' value="70+"/></div>
+				<div style="position:absolute;left:calc(50% - (1/2)*183px);margin-top:2.5%;">
 					<div><img src="@/assets/Airavata_logo.png" alt=""></div>
-					<div style="padding-top:59px"><statCard title='Science Gateway' value="70+"/></div>
 				</div>
-				<div style="margin-right:19%;padding-top:10.6%"><statCard title='Science Gateway' value="70+"/></div>
+				<div style="position:absolute;right:19%;margin-top:13%"><statCard title='Science Gateway' value="70+"/></div>
 			</div>
+			<div style="margin-left:calc(50% - (1/2)*183px);padding-top:20%;width:fit-content;"><statCard title='Science Gateway' value="70+"/></div>
 		</div>
 		<div id="introduction" class="airavata-desc f-s pos-r global-padding">
 			<div style="margin-right:10%;width:55%">
@@ -108,7 +108,7 @@
 				<div class="airavata-rectangle"></div>
 				<div style="padding-top:146px;text-align:center">
 					<div style="padding-bottom: 6rem;margin-top: -11rem;"><span style="font-size:40px;line-height:140%;font-weight:600;color:#000000;background-color:white;">Fluid. <span class="crim-colo">Customizable</span>. Scalable.</span></div>
-					<div class="f-s pos-r link-text" style="text-align:center;margin-left: -60px;">
+					<div class="grid-container-column link-text" style="text-align:center;column-gap:calc((1/2)*(100vw - 3*420px - 15rem))">
 						<div class="puzzle--1">
 							<div style="width:420px;height:490px">
 								<svg width="420" height="490" viewBox="0 0 420 490" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -175,7 +175,6 @@
 								</div>
 							</div>
 						</div>
-
 						<div class="puzzle--3">
 							<div style="width:420px;height:490px;margin-top:72px">
 								<svg width="419" height="491" viewBox="0 0 419 491" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -285,17 +284,20 @@ export default {
 
 .airavata-landing {
 	background: url("~@/assets/Airavata_bg.png");
-	width: 1440px;
-	height: 674px;
+	width: 100%;
+	height: calc((100vw)*(674/1440));
+	box-sizing: border-box;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .airavata-rectangle {
 	position: absolute;
 	border: 1px dashed #990000;
-	width: 61rem;
+	width: calc(100vw - 15rem - 250px);
 	height: 50rem;
-	margin-left: 4.5rem;
-	z-index:-1;
+	margin-left: 130px;
+	z-index: -1;
 }
 
 

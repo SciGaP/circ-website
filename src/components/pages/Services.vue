@@ -33,7 +33,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="global-padding" style="background:#E5E5E588;padding-top:1rem;padding-bottom:10rem">
+		<div class="global-padding" style="background:#E5E5E588;padding-top:1rem;padding-bottom:10rem;box-sizing:border-box;">
 			<div class="block" style="left:0;opacity:0.02">
 				<svg width="269" height="307" viewBox="0 0 269 307" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M218.937 183.61L171.45 165.344C174.679 150.07 171.636 133.522 161.797 119.973L211.423 70.3463C236.495 85.6006 269 67.5069 269 37.9235C269 17.0126 251.987 0 231.076 0C201.468 0 183.414 32.5306 198.654 57.577L149.027 107.203C127.721 91.731 98.5108 92.7898 78.3446 110.066L53.0887 88.5978C65.6889 63.5195 47.3659 33.7098 19.1863 33.7098C-1.72464 33.7098 -18.7373 50.7224 -18.7373 71.6333C-18.7373 102.67 16.5756 120.333 41.3866 102.351L66.6382 123.816C54.6935 143.405 55.6386 168.348 69.2038 187.027L36.1736 220.057C4.93304 198.878 -38 221.207 -38 259.445C-38 285.667 -16.6671 307 9.5549 307C47.7614 307 70.1453 264.099 48.9424 232.827L81.9726 199.797C95.8147 209.85 113.098 212.995 129.19 209.027L149.718 257.551C130.3 274.782 142.517 307 168.473 307C184.073 307 196.765 294.308 196.765 278.708C196.765 262.496 182.986 249.261 166.346 250.504L145.813 201.97C153.681 197.031 160.268 190.233 164.951 182.193L212.446 200.463C211.77 216.643 224.747 229.949 240.708 229.949C256.308 229.949 269 217.257 269 201.657C269 175.415 235.901 163.181 218.937 183.61Z" fill="#333333"/>
@@ -324,7 +324,7 @@ img {
 }
 
 .child-container::after {
-	  content: '';
+	content: '';
     position: absolute;
     height: 0;
     width: 0;
@@ -340,9 +340,8 @@ img {
 	content: " ";
 	position: absolute;
 	height: 3px;
-	width: 100%;
 	background-color: #DBDADA;
-	width: 39.2%;
+	width: calc(100vw - 15rem - 10% - 182px - 160px);
   	margin-left: 182px;
   	margin-top: -40px;
 }
@@ -351,19 +350,26 @@ img {
 	content: " ";
 	position: absolute;
 	height: 3px;
-	width: 100%;
 	background-color: #DBDADA;
-	width: 58.2%;
+	width: calc(100vw - 15rem - 5% - 182px - 178px);
   	margin-left: 182px;
   	margin-top: -40px;
 }
 
 .child-containers--2 {
-	padding-left: 8rem;
+	padding-left: 5%;
+	padding-right: 5%;
+	column-gap: calc(100vw - 15rem - 2*375px - 10%);
 }
 
 .child--containers {
 	padding-top: 90px;
+}
+
+.child-containers--3 {
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	column-gap: calc((1/2)*(100vw - 15rem - 3*375px - 5%));
 }
 
 .service-grid {
@@ -375,7 +381,6 @@ img {
 
 .service-heading {
 	background: url("~@/assets/Heading_bg.png");
-	width: 1440px;
 	height: 174px;
 }
 
