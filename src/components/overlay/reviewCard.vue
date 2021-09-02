@@ -3,7 +3,7 @@
     <div style="padding:calc(var(--width)*0.1)">
       <span style="line-height: 180%;font-size:20px;color: #333333;">"{{ review }}"</span>
     </div>
-    <div class="f-s" style="padding-left:calc(var(--width)*0.1);position: absolute;bottom: 0;padding-bottom: calc(var(--height)*0.05);">
+    <div class="f-s" style="padding-left:calc(var(--width)*0.1);bottom: 0;">
       <div class="pos-r" style="padding-right:10px">
         <img :src="require(`@/assets/${imageLink}`)" :alt="firstName[0].toUpperCase()">
       </div>
@@ -41,7 +41,7 @@ export default {
   background: #990000;
   display: block;
   bottom: 0;
-  position: absolute;
+  position: sticky;
 }
 
 img {

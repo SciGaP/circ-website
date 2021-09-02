@@ -26,8 +26,8 @@ export default {
   },
   methods: {
     handleScroll: function(e) {
-      console.log(" scrollTop: "+e.target.documentElement.scrollTop+
-                  " scrollHeight: "+e.target.documentElement.scrollHeight);
+      // console.log(" scrollTop: "+e.target.documentElement.scrollTop+
+                  // " scrollHeight: "+e.target.documentElement.scrollHeight);
     },
     btnFixed() {
       
@@ -208,6 +208,11 @@ export default {
   font-size: 20px;
   padding: 16px 36px;
   font-weight: 600;
+}
+
+.bor-rad {
+  border-radius: 5px;
+  border: 0.5px solid #A0A0A0;
 }
 
 .float-btn {

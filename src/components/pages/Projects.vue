@@ -32,7 +32,6 @@
 			<div style="padding-bottom:2rem"><span class="home-head-text head-text link-text">Projects</span></div>
             
 
-
             <div style="display:flex;column-gap:24px;padding-bottom:6rem">
 				<div v-for="filter in filterList" :key="filter">
 					<button class="filter-button link-text" :class="isFilterSelected(filter)?'filter-button-selected':''" v-on:click="onClickFilter(filter)">{{filter}}</button>
@@ -49,45 +48,21 @@
         <div id="publications" class="global-padding" style="background:#FAF9F9">
 			<div style="padding-bottom:2rem"><span class="home-head-text head-text link-text">Key Publications</span></div>
             <div>
-                <ol>
+                <ol v-for="publication in publicationList" :key="publication.id">
                     <li>
-                            <publicationCard 
-                                name="Apache Airavata as a laboratory: architecture and case study for component-based gateway middleware."
-                                authors="Marru Suresh, Marlon Pierce, Sudhakar Pamidighantam, and Chathuri Wimalasena"
-                                description="In Proceedings of the 1st Workshop on The Science of Cyberinfrastructure: Research, Experience, Applications and Models, pp. 19-26. ACM, 2015."
-                            />
+						<publicationCard
+							:id="publication.id"
+							:name="publication.name"
+							:authors="publication.authors"
+							:description="publication.description"
+                        />
                     </li>
                     <br/><br/>
-                    <li>
-                            <publicationCard 
-                                name="Apache Airavata as a laboratory: architecture and case study for component-based gateway middleware."
-                                authors="Marru Suresh, Marlon Pierce, Sudhakar Pamidighantam, and Chathuri Wimalasena"
-                                description="In Proceedings of the 1st Workshop on The Science of Cyberinfrastructure: Research, Experience, Applications and Models, pp. 19-26. ACM, 2015."
-                            />
-                    </li>
-                    <br/>
-                    <br/>
-                    <li>
-                            <publicationCard 
-                                name="Apache Airavata as a laboratory: architecture and case study for component-based gateway middleware."
-                                authors="Marru Suresh, Marlon Pierce, Sudhakar Pamidighantam, and Chathuri Wimalasena"
-                                description="In Proceedings of the 1st Workshop on The Science of Cyberinfrastructure: Research, Experience, Applications and Models, pp. 19-26. ACM, 2015."
-                            />
-                    </li>
-                    <br/>
-                    <br/>
-                    <li>
-                            <publicationCard 
-                                name="Apache Airavata as a laboratory: architecture and case study for component-based gateway middleware."
-                                authors="Marru Suresh, Marlon Pierce, Sudhakar Pamidighantam, and Chathuri Wimalasena"
-                                description="In Proceedings of the 1st Workshop on The Science of Cyberinfrastructure: Research, Experience, Applications and Models, pp. 19-26. ACM, 2015."
-                            />
-                    </li><br/>
-                    <br/>
-
                 </ol>
+				<button v-on:click="allpublications()" class="bor-rad hig-3r airvata-button link-text bg-crim-colo">View all publications</button>
             </div>
         </div>
+
     </div>
 </template>
 
@@ -104,6 +79,100 @@ export default {
         return {
             test:0,
             selected_filters: [],
+			publicationList: [],
+			allPublicationList: [
+				{
+					name:"Apache Airavata as a laboratory: architecture and case study for component-based gateway middleware.",
+					authors:"Marru Suresh, Marlon Pierce, Sudhakar Pamidighantam, and Chathuri Wimalasena",
+					description:"In Proceedings of the 1st Workshop on The Science of Cyberinfrastructure: Research, Experience, Applications and Models, pp. 19-26. ACM, 2015.",
+					link: '',
+					id: 1,
+				},
+				{
+					name:"Apache Airavata as a laboratory: architecture and case study for component-based gateway middleware.",
+					authors:"Marru Suresh, Marlon Pierce, Sudhakar Pamidighantam, and Chathuri Wimalasena",
+					description:"In Proceedings of the 1st Workshop on The Science of Cyberinfrastructure: Research, Experience, Applications and Models, pp. 19-26. ACM, 2015.",
+					link: '',
+					id: 2,
+				},
+				{
+					name:"Apache Airavata as a laboratory: architecture and case study for component-based gateway middleware.",
+					authors:"Marru Suresh, Marlon Pierce, Sudhakar Pamidighantam, and Chathuri Wimalasena",
+					description:"In Proceedings of the 1st Workshop on The Science of Cyberinfrastructure: Research, Experience, Applications and Models, pp. 19-26. ACM, 2015.",
+					link: '',
+					id: 3,
+				},
+				{
+					name:"Apache Airavata as a laboratory: architecture and case study for component-based gateway middleware.",
+					authors:"Marru Suresh, Marlon Pierce, Sudhakar Pamidighantam, and Chathuri Wimalasena",
+					description:"In Proceedings of the 1st Workshop on The Science of Cyberinfrastructure: Research, Experience, Applications and Models, pp. 19-26. ACM, 2015.",
+					link: '',
+					id: 4,
+				},
+				{
+					name:"Apache Airavata as a laboratory: architecture and case study for component-based gateway middleware.",
+					authors:"Marru Suresh, Marlon Pierce, Sudhakar Pamidighantam, and Chathuri Wimalasena",
+					description:"In Proceedings of the 1st Workshop on The Science of Cyberinfrastructure: Research, Experience, Applications and Models, pp. 19-26. ACM, 2015.",
+					link: '',
+					id: 5,
+				},
+				{
+					name:"Apache Airavata as a laboratory: architecture and case study for component-based gateway middleware.",
+					authors:"Marru Suresh, Marlon Pierce, Sudhakar Pamidighantam, and Chathuri Wimalasena",
+					description:"In Proceedings of the 1st Workshop on The Science of Cyberinfrastructure: Research, Experience, Applications and Models, pp. 19-26. ACM, 2015.",
+					link: '',
+					id: 6,
+				},
+				{
+					name:"Apache Airavata as a laboratory: architecture and case study for component-based gateway middleware.",
+					authors:"Marru Suresh, Marlon Pierce, Sudhakar Pamidighantam, and Chathuri Wimalasena",
+					description:"In Proceedings of the 1st Workshop on The Science of Cyberinfrastructure: Research, Experience, Applications and Models, pp. 19-26. ACM, 2015.",
+					link: '',
+					id: 7,
+				},
+				{
+					name:"Apache Airavata as a laboratory: architecture and case study for component-based gateway middleware.",
+					authors:"Marru Suresh, Marlon Pierce, Sudhakar Pamidighantam, and Chathuri Wimalasena",
+					description:"In Proceedings of the 1st Workshop on The Science of Cyberinfrastructure: Research, Experience, Applications and Models, pp. 19-26. ACM, 2015.",
+					link: '',
+					id: 8,
+				},
+				{
+					name:"Apache Airavata as a laboratory: architecture and case study for component-based gateway middleware.",
+					authors:"Marru Suresh, Marlon Pierce, Sudhakar Pamidighantam, and Chathuri Wimalasena",
+					description:"In Proceedings of the 1st Workshop on The Science of Cyberinfrastructure: Research, Experience, Applications and Models, pp. 19-26. ACM, 2015.",
+					link: '',
+					id: 9,
+				},
+				{
+					name:"Apache Airavata as a laboratory: architecture and case study for component-based gateway middleware.",
+					authors:"Marru Suresh, Marlon Pierce, Sudhakar Pamidighantam, and Chathuri Wimalasena",
+					description:"In Proceedings of the 1st Workshop on The Science of Cyberinfrastructure: Research, Experience, Applications and Models, pp. 19-26. ACM, 2015.",
+					link: '',
+					id: 10,
+				},
+				{
+					name:"Apache Airavata as a laboratory: architecture and case study for component-based gateway middleware.",
+					authors:"Marru Suresh, Marlon Pierce, Sudhakar Pamidighantam, and Chathuri Wimalasena",
+					description:"In Proceedings of the 1st Workshop on The Science of Cyberinfrastructure: Research, Experience, Applications and Models, pp. 19-26. ACM, 2015.",
+					link: '',
+					id: 11,
+				},
+				{
+					name:"Apache Airavata as a laboratory: architecture and case study for component-based gateway middleware.",
+					authors:"Marru Suresh, Marlon Pierce, Sudhakar Pamidighantam, and Chathuri Wimalasena",
+					description:"In Proceedings of the 1st Workshop on The Science of Cyberinfrastructure: Research, Experience, Applications and Models, pp. 19-26. ACM, 2015.",
+					link: '',
+					id: 12,
+				},
+				{
+					name:"Apache Airavata as a laboratory: architecture and case study for component-based gateway middleware.",
+					authors:"Marru Suresh, Marlon Pierce, Sudhakar Pamidighantam, and Chathuri Wimalasena",
+					description:"In Proceedings of the 1st Workshop on The Science of Cyberinfrastructure: Research, Experience, Applications and Models, pp. 19-26. ACM, 2015.",
+					link: '',
+					id: 13,
+				},
+			],
             projectsList:[
                 {
                     name:"Electron microscopy Center",
@@ -164,6 +233,9 @@ export default {
             ]
         }
     },
+	mounted(){
+		this.publicationList = this.allPublicationList.slice(0,5);
+	},
     computed: {
 		filterList: function() {
 			var filter_list = [];
@@ -186,6 +258,9 @@ export default {
 			}else{
 				this.selected_filters.push(filter);
 			}			
+		},
+		allpublications() {
+			this.publicationList = [...this.allPublicationList];
 		}
 	}
 }
@@ -195,38 +270,18 @@ export default {
 img {
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));border-radius: 5px 50px 5px 50px;
 }
-ol{
-    counter-reset: li;
+
+ol {
+	padding: 0px;
+	margin: 0px;
 }
+
 ol > li {
     position:relative; /* Create a positioning context */
-    margin:0 0 0 2em; /* Give each list item a left margin to make room for the numbers */
+    margin:0 0 0 0rem; /* Give each list item a left margin to make room for the numbers */
     padding:0px 0px; /* Add some spacing around the content */
     list-style:none; /* Disable the normal item numbering */
     background:#f6f6f6;
-    counter-increment:li; 
-}
-ol > li:before {
-    
-    content:counter(li); 
-    position:absolute;
-    top:0px;
-    left:0em;
-    -moz-box-sizing:border-box;
-    -webkit-box-sizing:border-box;
-    box-sizing:border-box;
-    width:61px;
-    height:66px;
-    margin-right:8px;
-    padding:4px;
-    border-top:2px;
-    color:#FFFFFF;
-    background:#990000;
-    font-weight:bold;
-    font-family:Source Sans Pro;
-    font-size:40px;
-    line-height:50px;
-    text-align:center;
 }
 
 </style>
