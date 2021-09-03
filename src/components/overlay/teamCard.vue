@@ -17,9 +17,6 @@
 export default {
   name: 'teamCard',
   props: ['firstName', 'lastName', 'position', 'talkAbout', 'profileLink', 'imageLink'],
-  computed: {
-    // altName: () => .firstName[0].toUpperCase()+''+this.lastName[0].toUpperCase()
-  }
 }
 </script>
 

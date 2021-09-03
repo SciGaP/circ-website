@@ -4,8 +4,10 @@
     <div class="router" id="nav">
       <router-view/>
     </div>
-    <!-- <button id="btn-float" class="float-btn airvata-button link-text bg-crim-colo">Get in touch</button> -->
-    <!-- <contactCard /> -->
+    <div v-if="isNotContactPage" :class="isFixed?'pos-f':'block'">
+      <button  v-on:click="btnContactOnclick()" v-if="showButton" id="btn-float" class="float-btn airvata-button link-text bg-crim-colo">Get in touch</button>
+      <contactCard v-else />
+    </div>
     <Footer/>
   </div>
 </template>
@@ -18,20 +20,40 @@ import contactCard from './components/overlay/contactCard';
 export default {
   name: 'App',
   components: {Header, Footer, contactCard},
+  data() {
+    return{
+      showButton: true,
+      isFixed: true,
+      isNotContactPage: true,
+    }
+  },
   created () {
     window.addEventListener('scroll', this.handleScroll);
   },
   destroyed () {
     window.removeEventListener('scroll', this.handleScroll);
   },
-  methods: {
-    handleScroll: function(e) {
-      // console.log(" scrollTop: "+e.target.documentElement.scrollTop+
-                  // " scrollHeight: "+e.target.documentElement.scrollHeight);
-    },
-    btnFixed() {
-      
+  watch: {
+    '$route'(to, from) {
+      if(to.name == "Contact"){
+        this.isNotContactPage = false
+      }else{
+        this.isNotContactPage = true
+      }
     }
+  },
+  methods: {
+    handleScroll(e) {
+      const footer = document.getElementById('circ-footer');
+      if(e.target.documentElement.scrollHeight - e.target.documentElement.clientHeight - e.target.documentElement.scrollTop <= footer.clientHeight){
+        this.isFixed = false;
+      }else{
+        this.isFixed = true;
+      }
+    },
+    btnContactOnclick() {
+      this.showButton ^= 1;
+    },
   }
 }
 </script>
@@ -208,6 +230,7 @@ export default {
   font-size: 20px;
   padding: 16px 36px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .bor-rad {
@@ -220,7 +243,12 @@ export default {
   border-radius: 5px 5px 0px 0px;
   border: .5px solid #a0a0a0;
   bottom:0;
-  left: 70%;
+  left: 70vw;
+  position: inherit;
+  width: max-content;
+}
+
+.pos-f {
   position: fixed;
 }
 

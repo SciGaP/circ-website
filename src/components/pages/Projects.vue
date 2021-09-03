@@ -184,7 +184,6 @@ export default {
         },
     data: function(){
         return {
-            test:0,
             selected_filters: [],
 			publicationList: [],
 			allPublicationList: [

@@ -24,10 +24,52 @@
 					<path d="M405.068 253.275C407.989 254.043 410.994 254.437 414.014 254.447C421.028 254.443 427.884 252.36 433.715 248.462C439.547 244.563 444.092 239.024 446.776 232.544C449.461 226.063 450.165 218.933 448.799 212.053C447.433 205.172 444.059 198.851 439.102 193.888C438.521 193.311 437.903 192.789 437.271 192.254C443.222 170.672 441.849 151.875 432.908 136.373C413.68 103.044 363.188 92.1255 293.907 105.919C271.14 39.0238 236.419 0.746094 198 0.746094C159.58 0.746094 124.864 39.0192 102.074 105.924C32.7797 92.1209 -17.6987 103.044 -36.9223 136.368C-45.5887 151.339 -47.1086 170.15 -41.5828 191.031C-48.1052 196.138 -52.6353 203.365 -54.388 211.461C-56.1407 219.557 -55.0055 228.011 -51.1791 235.358C-47.3527 242.705 -41.0763 248.481 -33.4378 251.686C-25.7994 254.891 -17.2804 255.322 -9.35739 252.905C-4.6053 259.227 0.600029 265.623 6.20823 272.027C-40.3467 325.152 -56.1367 374.335 -36.9269 407.627C-23.1238 431.557 6.75302 443.968 48.1484 443.968C66.2697 443.746 84.3266 441.765 102.065 438.053C124.85 504.967 159.575 543.254 198 543.254C215.36 543.254 232.482 535.114 247.869 519.796C255.44 523.113 263.931 523.681 271.877 521.403C279.822 519.124 286.721 514.142 291.384 507.317C296.046 500.492 298.177 492.253 297.41 484.023C296.643 475.793 293.025 468.09 287.182 462.244C286.605 461.663 285.987 461.136 285.378 460.605C288.376 453.513 291.247 445.955 293.957 438.053C311.687 441.767 329.737 443.748 347.851 443.968C389.242 443.968 419.123 431.552 432.926 407.627C452.154 374.335 436.346 325.152 389.8 272.032C395.202 265.865 400.302 259.593 405.068 253.275ZM427.767 232.738C424.115 236.379 419.168 238.424 414.012 238.424C408.855 238.424 403.908 236.379 400.257 232.738C397.538 230.018 395.688 226.552 394.939 222.78C394.189 219.008 394.575 215.099 396.048 211.546C397.52 207.993 400.013 204.957 403.211 202.82C406.409 200.684 410.168 199.544 414.014 199.544C417.86 199.544 421.619 200.684 424.817 202.82C428.015 204.957 430.507 207.993 431.98 211.546C433.452 215.099 433.838 219.008 433.089 222.78C432.34 226.552 430.489 230.018 427.771 232.738H427.767ZM419.045 144.38C425.313 155.262 426.521 168.791 422.749 184.668C415.225 182.754 407.282 183.363 400.138 186.4C392.994 189.437 387.043 194.735 383.201 201.481C379.358 208.226 377.836 216.046 378.866 223.74C379.897 231.434 383.425 238.578 388.907 244.073C389.484 244.655 390.102 245.177 390.711 245.712C386.994 250.553 383.069 255.357 378.936 260.124C359.299 239.733 337.91 221.103 315.017 204.45C312.026 176.307 306.604 148.476 298.81 121.27C359.186 109.596 403.837 118.015 419.045 144.376V144.38ZM283.102 419.333C260.813 413.895 238.963 406.792 217.736 398.086C231.402 391.48 245.012 384.301 258.367 376.592C271.826 368.809 284.851 360.605 297.281 352.113C294.242 374.842 289.502 397.312 283.102 419.333ZM112.897 419.333C106.492 397.313 101.748 374.843 98.7047 352.113C111.166 360.605 124.187 368.818 137.642 376.592C150.982 384.301 164.579 391.489 178.268 398.086C157.039 406.792 135.188 413.895 112.897 419.333ZM112.897 124.667C135.186 130.105 157.036 137.207 178.263 145.914C164.593 152.52 150.987 159.699 137.632 167.431C124.173 175.214 111.148 183.418 98.6955 191.91C101.74 169.172 106.487 146.694 112.897 124.667ZM78.9684 317.937C60.7945 303.943 43.7115 288.586 27.8673 272C43.7129 255.416 60.7958 240.059 78.9684 226.063C77.8376 241.171 77.2378 256.567 77.2378 272C77.2378 287.433 77.8284 302.811 78.9684 317.937ZM145.658 362.711C128.316 352.699 111.72 341.949 96.1821 330.769C94.2684 311.582 93.2613 291.855 93.2613 272C93.2613 252.145 94.2684 232.422 96.1821 213.231C111.707 202.06 128.307 191.306 145.658 181.289C162.826 171.368 180.424 162.349 198.004 154.379C215.598 162.354 233.192 171.373 250.36 181.289C267.702 191.301 284.297 202.051 299.835 213.231C301.749 232.418 302.756 252.145 302.756 272C302.756 291.855 301.749 311.578 299.835 330.769C284.311 341.94 267.711 352.694 250.36 362.711C233.192 372.632 215.593 381.651 198.013 389.621C180.41 381.646 162.817 372.627 145.649 362.711H145.658ZM283.112 124.648C289.516 146.669 294.26 169.139 297.304 191.869C284.842 183.377 271.822 175.164 258.39 167.39C245.017 159.699 231.42 152.511 217.731 145.914C238.96 137.208 260.812 130.105 283.102 124.667L283.112 124.648ZM317.031 226.063C335.205 240.057 352.288 255.414 368.132 272C352.286 288.584 335.203 303.941 317.031 317.937C318.162 302.829 318.761 287.433 318.761 272C318.761 256.567 318.171 241.189 317.031 226.063ZM198 16.7695C228.389 16.7695 258.033 51.2382 278.185 109.362C250.714 116.191 223.884 125.382 197.995 136.831C172.11 125.381 145.283 116.19 117.814 109.362C137.971 51.2337 167.61 16.7695 198 16.7695ZM-33.5207 232.738C-36.7138 229.555 -38.704 225.362 -39.1521 220.876C-39.6001 216.389 -38.4783 211.886 -35.9778 208.134C-33.4773 204.382 -29.7529 201.613 -25.4395 200.3C-21.1262 198.987 -16.4908 199.21 -12.3236 200.932C-8.15638 202.653 -4.71531 205.767 -2.58692 209.742C-0.458538 213.717 0.225399 218.307 -0.651699 222.73C-1.5288 227.153 -3.91264 231.134 -7.39686 233.996C-10.8811 236.858 -15.25 238.423 -19.7589 238.424C-22.3157 238.435 -24.8491 237.937 -27.2122 236.961C-29.5754 235.985 -31.7212 234.55 -33.5253 232.738H-33.5207ZM5.32465 193.888C1.17892 189.75 -3.92696 186.702 -9.53725 185.017C-15.1476 183.332 -21.0877 183.063 -26.8275 184.233C-30.5266 168.548 -29.2906 155.162 -23.0506 144.403C-7.83746 118.029 36.813 109.609 97.1893 121.288C89.3951 148.497 83.9711 176.329 80.9782 204.473C58.084 221.109 36.6939 239.721 17.0538 260.097C12.5947 254.951 8.42862 249.836 4.55553 244.751C4.80732 244.513 5.07743 244.293 5.32465 244.051C11.9705 237.393 15.703 228.37 15.703 218.962C15.703 209.555 11.9705 200.532 5.32465 193.874V193.888ZM-23.0597 399.615C-38.2316 373.282 -23.2062 330.389 17.0767 283.903C36.7108 304.285 58.0947 322.905 80.9827 339.55C83.9729 367.693 89.3953 395.524 97.1893 422.73C36.8084 434.395 -7.84204 425.981 -23.0506 399.615H-23.0597ZM275.851 501.089C272.667 504.284 268.473 506.275 263.986 506.723C259.498 507.172 254.993 506.05 251.24 503.549C247.487 501.048 244.718 497.323 243.404 493.008C242.09 488.694 242.313 484.057 244.035 479.889C245.758 475.72 248.872 472.278 252.848 470.149C256.824 468.021 261.416 467.337 265.84 468.214C270.264 469.092 274.246 471.476 277.109 474.962C279.971 478.447 281.536 482.817 281.537 487.328C281.538 492.487 279.493 497.436 275.851 501.089ZM262.116 451.861C255.364 451.86 248.752 453.787 243.057 457.415C237.363 461.043 232.822 466.221 229.969 472.341C227.116 478.461 226.069 485.268 226.951 491.962C227.833 498.656 230.608 504.96 234.95 510.131C223.047 521.471 210.649 527.23 198.022 527.23C167.633 527.23 137.99 492.762 117.837 434.638C145.308 427.809 172.138 418.618 198.027 407.169C223.918 418.62 250.752 427.811 278.227 434.638C275.983 441.07 273.649 447.228 271.204 453.065C268.232 452.271 265.169 451.867 262.093 451.861H262.116ZM419.073 399.615C403.86 425.985 359.209 434.409 298.833 422.73C306.627 395.522 312.051 367.69 315.044 339.546C337.923 322.902 359.298 304.283 378.923 283.903C419.205 330.389 434.231 373.282 419.05 399.615H419.073Z" fill="#333333"/>
 				</svg>
 			</div>
+			<div class="f-s pos-r" style="float:right;padding-top: 8rem;">
+				<div class="left-nav" v-on:click="leftscroll()" style="cursor:pointer">
+					<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g filter="url(#filter111_d)">
+					<circle cx="40" cy="38" r="30" fill="white"/>
+					<circle cx="40" cy="38" r="29.5" stroke="#006298"/>
+					</g>
+					<path d="M46.3937 46.6063L37.8062 38L46.3937 29.3937L43.75 26.75L32.5 38L43.75 49.25L46.3937 46.6063Z" fill="#006298"/>
+					<defs>
+					<filter id="filter111_d" x="0" y="0" width="80" height="80" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+					<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+					<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+					<feOffset dy="2"/>
+					<feGaussianBlur stdDeviation="5"/>
+					<feColorMatrix type="matrix" values="0 0 0 0 0.2 0 0 0 0 0.2 0 0 0 0 0.2 0 0 0 0.1 0"/>
+					<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+					<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+					</filter>
+					</defs>
+					</svg>
+				</div>
+				<div class="right-nav" v-on:click="rightscroll()" style="cursor:pointer">
+					<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g filter="url(#filter222_d)">
+					<circle cx="40" cy="38" r="30" fill="white"/>
+					<circle cx="40" cy="38" r="29.5" stroke="#006298"/>
+					</g>
+					<path d="M33.6055 46.6063L42.193 38L33.6055 29.3937L36.2492 26.75L47.4992 38L36.2492 49.25L33.6055 46.6063Z" fill="#006298"/>
+					<defs>
+					<filter id="filter222_d" x="0" y="0" width="80" height="80" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+					<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+					<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+					<feOffset dy="2"/>
+					<feGaussianBlur stdDeviation="5"/>
+					<feColorMatrix type="matrix" values="0 0 0 0 0.2 0 0 0 0 0.2 0 0 0 0 0.2 0 0 0 0.1 0"/>
+					<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+					<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+					</filter>
+					</defs>
+					</svg>
+				</div>
+			</div>
 			<div style="padding-bottom:2rem;padding-top:8rem">
 				<span class="home-head-text head-text link-text">Solutions we’ve customised for you</span>
 			</div>
-			<div class="grid-container-column" style="column-gap:1rem;margin-bottom:2rem">
+			<div id="projects-list" class="grid-container-column" style="overflow: scroll;column-gap:1rem !important;margin-bottom:2rem;z-index:3;grid-auto-columns: max-content;">
 				<div v-for="project in projectsList" :key="project.id">
 					<projectCard :project="project" />
 				</div>
@@ -250,8 +292,6 @@ export default {
 	components: {projectCard},
 	data: function(){
         return {
-            test:0,
-            selected_filters:[],
             projectsList:[
                 {
                     name:"Electron microscopy Center",
@@ -267,16 +307,68 @@ export default {
                     domain:"Social",
                     id:2   
                 },
-                 {
+                {
                     name:"Electron microscopy Center",
                     company:"Indiana University",
                     description:"Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy.",
                     domain:"Physics",
                     id:3     
+                },
+                {
+                    name:"Electron microscopy Center",
+                    company:"Indiana University",
+                    description:"Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy.",
+                    domain:"Physics",
+                    id:4     
+                },
+                {
+                    name:"Electron microscopy Center",
+                    company:"Indiana University",
+                    description:"Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy.",
+                    domain:"Physics",
+                    id:5     
+                },
+                {
+                    name:"Electron microscopy Center",
+                    company:"Indiana University",
+                    description:"Providing user friendly access to state-of-the-art equipment, service and expertise in electron microscopy.",
+                    domain:"Physics",
+                    id:6    
                 }
             ]
         }
-    }
+    },
+	methods: {
+		scrollTo(element, scrollPixels, duration) {
+        const scrollPos = element.scrollLeft;
+        console.log("scrolLeft: "+scrollPos);
+        if ( !( (scrollPos === 0 || scrollPixels > 0) && (element.clientWidth + scrollPos === element.scrollWidth || scrollPixels < 0))) {
+          const startTime = "now" in window.performance? performance.now():new Date().getTime();
+          console.log("inside");
+          function scroll(timestamp) {
+            const timeElapsed = timestamp - startTime;
+            const progress = Math.min(timeElapsed/duration, 1);
+            element.scrollLeft = scrollPos + scrollPixels*progress;
+            if(timeElapsed < duration){
+              window.requestAnimationFrame(scroll);
+            }else{
+              return;
+            }
+          }
+          window.requestAnimationFrame(scroll);
+        }
+      },
+		leftscroll() {
+		console.log("hello Left");
+		var container = document.getElementById('projects-list');
+		this.scrollTo(container, -812, 1200);
+      },
+      rightscroll() {
+        console.log("hello right");
+        var container = document.getElementById('projects-list');
+        this.scrollTo(container, 812, 1200);
+      }
+	}
 
 }
 </script>
