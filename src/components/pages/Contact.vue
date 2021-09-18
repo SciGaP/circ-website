@@ -130,8 +130,10 @@ export default {
   z-index: 1;
   width: 40%;
   margin-right: 9.6rem;
+  margin-left: 5rem;
   padding: 3rem;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  max-width: 600px !important;
 }
 
 .contact-b-form {

@@ -5,8 +5,7 @@
       <router-view/>
     </div>
     <div v-if="isNotContactPage" :class="isFixed?'pos-f':'block'">
-      <button  v-on:click="btnContactOnclick()" v-if="showButton" id="btn-float" class="float-btn airvata-button link-text bg-crim-colo">Get in touch</button>
-      <contactCard v-else />
+      <button  v-on:click="$router.push({path: './contact'})" id="btn-float" class="float-btn airvata-button link-text bg-crim-colo">Get in touch</button>
     </div>
     <Footer/>
   </div>
@@ -15,14 +14,12 @@
 <script>
 import Header from './components/block/Header';
 import Footer from './components/block/Footer';
-import contactCard from './components/overlay/contactCard';
 
 export default {
   name: 'App',
-  components: {Header, Footer, contactCard},
+  components: {Header, Footer},
   data() {
     return{
-      showButton: true,
       isFixed: true,
       isNotContactPage: true,
     }
@@ -51,29 +48,18 @@ export default {
         this.isFixed = true;
       }
     },
-    btnContactOnclick() {
-      this.showButton ^= 1;
-    },
   }
 }
 </script>
 
 <style>
 #app {
-  /* -webkit-font-smoothing: antialiased; */
-  /* -moz-osx-font-smoothing: grayscale; */
-  /* color: #2c3e50; */
   overflow:hidden; 
-  /* max-width: 1440px !important; */
 }
 
 .wid-100 {
   width: 100%;
   box-sizing:border-box;
-}
-
-.router {
-  /* max-width: 1440px !important; */
 }
 
 .hig-100-vh {
@@ -194,6 +180,7 @@ export default {
   border: 5px solid #990000;
   border-radius:0px;
   margin-bottom: 10px;
+  margin-top: 20px;
   background:#990000;
 }
 
@@ -254,6 +241,10 @@ export default {
 
 img{
   width: 100%;
+}
+
+b {
+  font-weight: 700;
 }
 
 </style>

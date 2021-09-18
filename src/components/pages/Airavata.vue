@@ -215,7 +215,7 @@
 					</div>
 					<div style="margin-top: -13.6rem;"><span style="font-size:40px;line-height:140%;font-weight:600;color:#000000;background-color:white;">Enabling <span class="crim-colo">Science</span>.</span></div>
 				</div>
-				<div id="learn-more">
+				<div id="learn-more" style="padding-bottom: 4rem">
 					<div style="padding-bottom:2rem;margin-top:6rem"><span class="home-head-text head-text link-text">Hosting foundation</span></div>
 					<div class="f-s pos-r">
 						<div style="width:56%">
@@ -256,7 +256,7 @@
 						</div>
 					</div>
 
-					<div style="padding-bottom:2rem"><span class="home-head-text head-text link-text">We run Airavata as a Service through SciGaP </span></div>
+					<div style="padding-bottom:4rem"><span class="home-head-text head-text link-text">We run Airavata as a Service through SciGaP </span></div>
 					<div class="f-s pos-r">
 						<div style="width:56%">
 							<p style="font-size:20px;line-height:160%;color:#45382B"> Science Gateways are easy to build but hard to sustain. Key developers come and go. Scaling up to support growing user communities and more demanding usage takes a lot of work. Things go wrong at the worst times. SciGaP's goal is to help gateways address these problems. <a href="">SciGaP</a>  is powered by <b>Apache Airavata.</b></p>

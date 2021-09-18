@@ -219,7 +219,7 @@ span {
 }
 
 .footer_img {
-  width: 250px;
+  width: 350px;
   height: 50px;
 }
 

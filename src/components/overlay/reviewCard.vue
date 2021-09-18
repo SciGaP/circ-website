@@ -1,15 +1,17 @@
 <template>
-  <div class="review-card bg-color-white link-text" :style="style">
-    <div style="padding:calc(var(--width)*0.1)">
-      <span style="line-height: 180%;font-size:20px;color: #333333;">"{{ review }}"</span>
-    </div>
-    <div class="f-s" style="padding-left:calc(var(--width)*0.1);bottom: 0;">
-      <div class="pos-r" style="padding-right:10px">
-        <img :src="require(`@/assets/${imageLink}`)" :alt="firstName[0].toUpperCase()">
+  <div>
+    <div class="review-card bg-color-white link-text" :style="style">
+      <div style="padding:calc(var(--width)*0.1)">
+        <span style="line-height: 180%;font-size:20px;color: #333333;">"{{ review }}"</span>
       </div>
-      <div class="pos-r" style="line-height:30px">
-        <span style="font-size:20px"><b>{{ firstName }}, {{ position }}</b></span> <br/>
-        <span style="font-size:18px;font-weight:600;color:#949494;">{{ company }}</span>
+      <div class="f-s" style="padding-left:calc(var(--width)*0.1);bottom: 0;">
+        <div class="pos-r" style="padding-right:10px">
+          <img :src="require(`@/assets/${imageLink}`)" :alt="firstName[0].toUpperCase()">
+        </div>
+        <div class="pos-r" style="line-height:30px">
+          <span style="font-size:20px"><b>{{ firstName }}, {{ position }}</b></span> <br/>
+          <span style="font-size:18px;font-weight:600;color:#949494;">{{ company }}</span>
+        </div>
       </div>
     </div>
   </div>
@@ -32,12 +34,13 @@ export default {
 .review-card {
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
   width: var(--width);
-  height: var(--height);
+  /* height: var(--height); */
 }
 .review-card::after {
   content: ' ';
   height: 5px;
   width: var(--width);
+  margin-top: 42px;
   background: #990000;
   display: block;
   bottom: 0;

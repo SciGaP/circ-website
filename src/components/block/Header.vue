@@ -93,22 +93,22 @@
               <span class="flyout-head-text">Science Gateway Services</span>
               <ul class='flyout-ul'>
                 <li class='flyout-li'>
-                  <a class="flyout-link" href=""><span>Science Gateways &#8250;</span></a>
+                  <a class="flyout-link" v-on:click="onClickLink('./services#science-gateways')"><span>Science Gateways &#8250;</span></a>
                 </li>
                 <li class='flyout-li'>
-                  <a class="flyout-link" href=""><span>Full Stack Cyberinfrastructure &#8250;</span></a>
+                  <a class="flyout-link" v-on:click="onClickLink('./services#full-stack-cyberinfrastructure')"><span>Full Stack Cyberinfrastructure &#8250;</span></a>
                 </li>
                 <li class='flyout-li'>
-                  <a class="flyout-link" href=""><span>Data Management &#8250;</span></a>
+                  <a class="flyout-link" v-on:click="onClickLink('./services#data-management')"><span>Data Management &#8250;</span></a>
                 </li>
                 <li class='flyout-li'>
-                  <a class="flyout-link" href=""><span>Computational Infrastructure &#8250;</span></a>
+                  <a class="flyout-link" v-on:click="onClickLink('./services#computational-infrastructure')"><span>Computational Infrastructure &#8250;</span></a>
                 </li>
                 <li class='flyout-li'>
-                  <a class="flyout-link" href=""><span>User Experience Design &#8250;</span></a>
+                  <a class="flyout-link" v-on:click="onClickLink('./services#user-experience')"><span>User Experience Design &#8250;</span></a>
                 </li>
                 <li class='flyout-li'>
-                  <a class="flyout-link" href=""><span>Security Stack &#8250;</span></a>
+                  <a class="flyout-link" v-on:click="onClickLink('./services#security-stack')"><span>Security Stack &#8250;</span></a>
                 </li>
               </ul>
             </div>
@@ -116,19 +116,19 @@
               <span class='flyout-head-text'>Projects</span>
               <ul class="flyout-ul">
                 <li class="flyout-li">
-                  <a class="flyout-link" href=""><span>Biological Science &#8250;</span></a>
+                  <a class="flyout-link" v-on:click="onClickLink('./projects#projects')"><span>Biological Science &#8250;</span></a>
                 </li>
                 <li class="flyout-li">
-                  <a class="flyout-link" href=""><span>Geo Science &#8250;</span></a>
+                  <a class="flyout-link" v-on:click="onClickLink('./projects#projects')"><span>Geo Science &#8250;</span></a>
                 </li>
                 <li class="flyout-li">
-                  <a class="flyout-link" href=""><span>Biological Science &#8250;</span></a>
+                  <a class="flyout-link" v-on:click="onClickLink('./projects#projects')"><span>Biological Science &#8250;</span></a>
                 </li>
                 <li class="flyout-li">
-                  <a class="flyout-link" href=""><span>Biological Science &#8250;</span></a>
+                  <a class="flyout-link" v-on:click="onClickLink('./projects#projects')"><span>Biological Science &#8250;</span></a>
                 </li>
                 <li class="flyout-li">
-                  <a class="flyout-link" href=""><span class="footer-link-text">See all Projects &#8250;</span></a>
+                  <a class="flyout-link" v-on:click="onClickLink('./projects#projects')"><span class="footer-link-text">See all Projects &#8250;</span></a>
                 </li>
               </ul>
             </div>

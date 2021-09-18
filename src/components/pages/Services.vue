@@ -69,17 +69,20 @@
 			<div style="padding-bottom:2rem;padding-top:8rem">
 				<span class="home-head-text head-text link-text">Solutions we’ve customised for you</span>
 			</div>
-			<div id="projects-list" class="grid-container-column" style="overflow: scroll;column-gap:1rem !important;margin-bottom:2rem;z-index:3;grid-auto-columns: max-content;">
+			<div id="projects-list" class="grid-container-column" style="overflow: hidden;column-gap:1rem !important;margin-bottom:2rem;z-index:3;grid-auto-columns: max-content;padding-bottom: 2rem">
 				<div v-for="project in projectsList" :key="project.id">
 					<projectCard :project="project" />
 				</div>
 			</div>
 		</div>
 		<div class="global-padding" style="background:#E5E5E588;padding-top:1rem;padding-bottom:10rem;box-sizing:border-box;">
-			<div class="block" style="left:0;opacity:0.02">
+			<div class="block" style="left:0;opacity:0.05;z-index: -1">
 				<svg width="269" height="307" viewBox="0 0 269 307" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M218.937 183.61L171.45 165.344C174.679 150.07 171.636 133.522 161.797 119.973L211.423 70.3463C236.495 85.6006 269 67.5069 269 37.9235C269 17.0126 251.987 0 231.076 0C201.468 0 183.414 32.5306 198.654 57.577L149.027 107.203C127.721 91.731 98.5108 92.7898 78.3446 110.066L53.0887 88.5978C65.6889 63.5195 47.3659 33.7098 19.1863 33.7098C-1.72464 33.7098 -18.7373 50.7224 -18.7373 71.6333C-18.7373 102.67 16.5756 120.333 41.3866 102.351L66.6382 123.816C54.6935 143.405 55.6386 168.348 69.2038 187.027L36.1736 220.057C4.93304 198.878 -38 221.207 -38 259.445C-38 285.667 -16.6671 307 9.5549 307C47.7614 307 70.1453 264.099 48.9424 232.827L81.9726 199.797C95.8147 209.85 113.098 212.995 129.19 209.027L149.718 257.551C130.3 274.782 142.517 307 168.473 307C184.073 307 196.765 294.308 196.765 278.708C196.765 262.496 182.986 249.261 166.346 250.504L145.813 201.97C153.681 197.031 160.268 190.233 164.951 182.193L212.446 200.463C211.77 216.643 224.747 229.949 240.708 229.949C256.308 229.949 269 217.257 269 201.657C269 175.415 235.901 163.181 218.937 183.61Z" fill="#333333"/>
 				</svg>
+			</div>
+			<div class="block" style="right: 0; z-index:-1; margin-top: 400px;opacity: 0.05">
+				<svg width="293" height="307" viewBox="0 0 293 307" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M256.937 183.61L209.45 165.344C212.679 150.07 209.636 133.522 199.797 119.973L249.423 70.3463C274.495 85.6006 307 67.5069 307 37.9235C307 17.0126 289.987 0 269.076 0C239.468 0 221.414 32.5306 236.654 57.577L187.027 107.203C165.721 91.731 136.511 92.7898 116.345 110.066L91.0887 88.5978C103.689 63.5195 85.3659 33.7098 57.1863 33.7098C36.2754 33.7098 19.2627 50.7224 19.2627 71.6333C19.2627 102.67 54.5756 120.333 79.3866 102.351L104.638 123.816C92.6935 143.405 93.6386 168.348 107.204 187.027L74.1736 220.057C42.933 198.878 0 221.207 0 259.445C0 285.667 21.3329 307 47.5549 307C85.7614 307 108.145 264.099 86.9424 232.827L119.973 199.797C133.815 209.85 151.098 212.995 167.19 209.027L187.718 257.551C168.3 274.782 180.517 307 206.473 307C222.073 307 234.765 294.308 234.765 278.708C234.765 262.496 220.986 249.261 204.346 250.504L183.813 201.97C191.681 197.031 198.268 190.233 202.951 182.193L250.446 200.463C249.77 216.643 262.747 229.949 278.708 229.949C294.308 229.949 307 217.257 307 201.657C307 175.415 273.901 163.181 256.937 183.61Z" fill="#333333"/></svg>
 			</div>
 			<div style="padding-bottom:2rem;padding-top:4rem"><span class="home-head-text head-text link-text">The Tree of our Expertise</span></div>
 			<div>
@@ -200,8 +203,8 @@
 			</div>
 		</div>
 		<div class="link-text">
-			<div class="service-heading">
-				<div class="global-padding" style="padding-top:53px;padding-bottom:0rem"><span class="white-head-text head-text--2 link-text">Full stack cybeinfrastructure</span></div>
+			<div class="service-heading" id="full-stack-cyberinfrastructure">
+				<div class="global-padding" style="padding-top:53px;padding-bottom:0rem"><span class="white-head-text head-text--2 link-text">Full stack cyberinfrastructure</span></div>
 			</div>
 			<div class="service-grid global-padding">
 				<div>
@@ -213,7 +216,7 @@
 					<p style="font-size:20px;line-height:160%">When the end users use softwares which have a good experience, they are able to reach their goals efficiently. By observing the way users interact with a product or service, we can become aware of specific behaviors that provide a different perspective on a problem. </p>
 				</div>
 			</div>
-			<div class="service-heading">
+			<div class="service-heading" id="science-gateways">
 				<div class="global-padding" style="padding-top:53px;padding-bottom:0rem"><span class="white-head-text head-text--2 link-text">Science gateways</span></div>
 			</div>
 			<div class="service-grid global-padding">
@@ -226,7 +229,7 @@
 					<p style="font-size:20px;line-height:160%">When the end users use softwares which have a good experience, they are able to reach their goals efficiently. By observing the way users interact with a product or service, we can become aware of specific behaviors that provide a different perspective on a problem. </p>
 				</div>
 			</div>
-			<div class="service-heading">
+			<div class="service-heading" id="data-management">
 				<div class="global-padding" style="padding-top:53px;padding-bottom:0rem"><span class="white-head-text head-text--2 link-text">Data Management</span></div>
 			</div>
 			<div class="service-grid global-padding">
@@ -239,7 +242,7 @@
 					<p style="font-size:20px;line-height:160%">When the end users use softwares which have a good experience, they are able to reach their goals efficiently. By observing the way users interact with a product or service, we can become aware of specific behaviors that provide a different perspective on a problem. </p>
 				</div>
 			</div>
-			<div class="service-heading">
+			<div class="service-heading" id="computational-infrastructure">
 				<div class="global-padding" style="padding-top:53px;padding-bottom:0rem"><span class="white-head-text head-text--2 link-text">Computational Infrastructure</span></div>
 			</div>
 			<div class="service-grid global-padding">
@@ -252,7 +255,7 @@
 					<p style="font-size:20px;line-height:160%">When the end users use softwares which have a good experience, they are able to reach their goals efficiently. By observing the way users interact with a product or service, we can become aware of specific behaviors that provide a different perspective on a problem. </p>
 				</div>
 			</div>
-			<div class="service-heading">
+			<div class="service-heading" id="security-stack">
 				<div class="global-padding" style="padding-top:53px;padding-bottom:0rem"><span class="white-head-text head-text--2 link-text">Security stack</span></div>
 			</div>
 			<div class="service-grid global-padding">
@@ -265,7 +268,7 @@
 					<p style="font-size:20px;line-height:160%">When the end users use softwares which have a good experience, they are able to reach their goals efficiently. By observing the way users interact with a product or service, we can become aware of specific behaviors that provide a different perspective on a problem. </p>
 				</div>
 			</div>
-			<div class="service-heading">
+			<div class="service-heading" id="user-experience">
 				<div class="global-padding" style="padding-top:53px;padding-bottom:0rem"><span class="white-head-text head-text--2 link-text">User Experience</span></div>
 			</div>
 			<div class="service-grid global-padding">
@@ -376,7 +379,7 @@ export default {
 <style scoped>
 
 img {
-	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	/* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
 	border-radius: 5px 50px 5px 50px;
 }
 
