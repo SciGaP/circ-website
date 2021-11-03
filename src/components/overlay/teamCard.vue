@@ -7,7 +7,7 @@
       <br/>
       <span style="font-size:24px;line-height:140%;font-weight:600;">{{position}}</span>
       <br/>
-      <p><b>Talk to {{firstName}} about</b> <br/> {{talkAbout}}</p>
+      <p>{{description}}</p>
       <a :href="`${profileLink}`">View Google scholar Profile ></a>
     </div>
   </div>
@@ -16,7 +16,7 @@
 <script>
 export default {
   name: 'teamCard',
-  props: ['firstName', 'lastName', 'position', 'talkAbout', 'profileLink', 'imageLink'],
+  props: ['firstName', 'lastName', 'position', 'description', 'profileLink', 'imageLink'],
 }
 </script>
 
@@ -26,8 +26,7 @@ export default {
   box-shadow: 0px 4px 20px rgba(51, 51, 51, 0.15);
   border-radius: 5px;
   text-align: center;
-  width: 345px;
-  height: 506px;
+  height: auto;
 }
 
 img {

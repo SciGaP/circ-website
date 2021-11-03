@@ -27,6 +27,8 @@ export default {
 .stat-card {
   box-shadow: 0px 4px 20px rgba(51, 51, 51, 0.12);
   border-radius: 10px;
+  width: min-content;
+  width: -moz-min-content;
 }
 
 .stat-card-content {

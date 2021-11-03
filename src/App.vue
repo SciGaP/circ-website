@@ -239,10 +239,6 @@ export default {
   position: fixed;
 }
 
-img{
-  width: 100%;
-}
-
 b {
   font-weight: 700;
 }
