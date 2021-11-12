@@ -319,7 +319,7 @@ almost two decades."
           </div>
         </div>
         <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 px-lg-5 d-flex align-items-end">
-              <button class="bor-rad hig-3r airvata-button link-text bg-crim-colo mb-4">View a list of all our Gateways</button>
+              <a href="/collaborations" class="bor-rad hig-3r airvata-button link-text bg-crim-colo mb-4">View a list of all our Gateways</a>
         </div>
       </div>
     </div>

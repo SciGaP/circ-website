@@ -46,6 +46,12 @@ export default new Router({
             path: '/teams',
             name: 'Teams',
             component: () => import("./components/pages/Teams")
+        },
+
+        {
+            path: '/collaborations',
+            name: 'Collaborations',
+            component: () => import("./components/pages/Collaborations")
         }
     ],
     scrollBehavior (to, from, savedPosition) {

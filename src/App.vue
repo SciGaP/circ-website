@@ -218,6 +218,11 @@ export default {
   padding: 16px 36px;
   font-weight: 600;
   cursor: pointer;
+  text-decoration: none;
+}
+
+.airvata-button:hover {
+  color: #f5f5f5;
 }
 
 .bor-rad {
